@@ -1,0 +1,3030 @@
+{
+	"scope": "source.lua.nitg meta.property.method-wait.lua - variable.parameter.function.lua - string",
+	"completions": [
+		{
+			"trigger": "x",
+			"annotation": "(x)",
+			"contents": "x(${1:x})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Sets the actor's X position."
+		},
+		{
+			"trigger": "GetX",
+			"annotation": "() → number",
+			"contents": "GetX()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's X position."
+		},
+		{
+			"trigger": "GetEffectX",
+			"annotation": "() → number",
+			"contents": "GetEffectX()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's X position taking active effects into account."
+		},
+		{
+			"trigger": "y",
+			"annotation": "(y)",
+			"contents": "y(${1:y})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Sets the actor's Y position."
+		},
+		{
+			"trigger": "GetY",
+			"annotation": "() → number",
+			"contents": "GetY()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's Y position."
+		},
+		{
+			"trigger": "GetEffectY",
+			"annotation": "() → number",
+			"contents": "GetEffectY()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's Y position taking active effects into account."
+		},
+		{
+			"trigger": "z",
+			"annotation": "(z)",
+			"contents": "z(${1:z})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Sets the actor's Z position."
+		},
+		{
+			"trigger": "GetZ",
+			"annotation": "() → number",
+			"contents": "GetZ()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's Z position."
+		},
+		{
+			"trigger": "GetEffectZ",
+			"annotation": "() → number",
+			"contents": "GetEffectZ()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's Z position taking active effects into account."
+		},
+		{
+			"trigger": "xy",
+			"annotation": "(x, y)",
+			"contents": "xy(${1:x}, ${2:y})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Sets the actor's X and Y position."
+		},
+		{
+			"trigger": "xyz",
+			"annotation": "(x, y, z)",
+			"contents": "xyz(${1:x}, ${2:y}, ${3:z})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Sets the actor's X, Y, and Z position."
+		},
+		{
+			"trigger": "xyza",
+			"annotation": "(x, y, z, a)",
+			"contents": "xyza(${1:x}, ${2:y}, ${3:z}, ${4:a})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Sets the actor's X, Y, and Z position, as well as it's aux value."
+		},
+		{
+			"trigger": "addx",
+			"annotation": "(x)",
+			"contents": "addx(${1:x})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Adds <code>x</code> to the actor's X position."
+		},
+		{
+			"trigger": "addy",
+			"annotation": "(y)",
+			"contents": "addy(${1:y})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Adds <code>y</code> to the actor's Y position."
+		},
+		{
+			"trigger": "addz",
+			"annotation": "(z)",
+			"contents": "addz(${1:z})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Adds <code>z</code> to the actor's Z position."
+		},
+		{
+			"trigger": "rotationx",
+			"annotation": "(xDeg)",
+			"contents": "rotationx(${1:xDeg})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Rotates the actor on the X axis."
+		},
+		{
+			"trigger": "GetRotationX",
+			"annotation": "() → number",
+			"contents": "GetRotationX()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's X axis rotation."
+		},
+		{
+			"trigger": "GetCurrentRotationX",
+			"annotation": "() → number",
+			"contents": "GetCurrentRotationX()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's X axis rotation. (CLARIFY)"
+		},
+		{
+			"trigger": "GetEffectRotationX",
+			"annotation": "() → number",
+			"contents": "GetCurrentRotationX()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's X axis rotation taking active effects into account."
+		},
+		{
+			"trigger": "rotationy",
+			"annotation": "(yDeg)",
+			"contents": "rotationy(${1:yDeg})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Rotates the actor on the Y axis."
+		},
+		{
+			"trigger": "GetRotationY",
+			"annotation": "() → number",
+			"contents": "GetRotationY()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's Y axis rotation."
+		},
+		{
+			"trigger": "GetCurrentRotationY",
+			"annotation": "() → number",
+			"contents": "GetCurrentRotationY()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's Y axis rotation. (CLARIFY)"
+		},
+		{
+			"trigger": "GetEffectRotationY",
+			"annotation": "() → number",
+			"contents": "GetCurrentRotationY()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's Y axis rotation taking active effects into account."
+		},
+		{
+			"trigger": "rotationz",
+			"annotation": "(zDeg)",
+			"contents": "rotationz(${1:zDeg})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Rotates the actor on the Z axis."
+		},
+		{
+			"trigger": "GetRotationZ",
+			"annotation": "() → number",
+			"contents": "GetRotationZ()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's Z axis rotation."
+		},
+		{
+			"trigger": "GetCurrentRotationZ",
+			"annotation": "() → number",
+			"contents": "GetCurrentRotationZ()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's Z axis rotation. (CLARIFY)"
+		},
+		{
+			"trigger": "GetEffectRotationZ",
+			"annotation": "() → number",
+			"contents": "GetCurrentRotationZ()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's Z axis rotation taking active effects into account."
+		},
+		{
+			"trigger": "getrotation",
+			"annotation": "() → x, y, z",
+			"contents": "getrotation()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's rotation on all axes."
+		},
+		{
+			"trigger": "getcurrentrotation",
+			"annotation": "() → x, y, z",
+			"contents": "getcurrentrotation()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's rotation on all axes. (CLARIFY)"
+		},
+		{
+			"trigger": "addrotationx",
+			"annotation": "(xDeg)",
+			"contents": "addrotationx(${1:xDeg})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Adds <code>degrees</code> to the actor's X axis rotation."
+		},
+		{
+			"trigger": "addrotationy",
+			"annotation": "(yDeg)",
+			"contents": "addrotationy(${1:yDeg})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Adds <code>degrees</code> to the actor's Y axis rotation."
+		},
+		{
+			"trigger": "addrotationz",
+			"annotation": "(zDeg)",
+			"contents": "addrotationz(${1:zDeg})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Adds <code>degrees</code> to the actor's Z axis rotation."
+		},
+		{
+			"trigger": "SetRotationOrder",
+			"annotation": "(order)",
+			"contents": "SetRotationOrder('${1:order}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the actor's order of rotation when rotating with Euler angles. Defaults to <code>'zyx'</code>"
+		},
+		{
+			"trigger": "GetRotationOrder",
+			"annotation": "() → string",
+			"contents": "GetRotationOrder()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the order of rotation when rotating with Euler angles."
+		},
+		{
+			"trigger": "zoom",
+			"annotation": "(scale)",
+			"contents": "zoom(${1:scale})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Uniformly scales the actor on the X and Y axis."
+		},
+		{
+			"trigger": "GetZoom",
+			"annotation": "() → number",
+			"contents": "GetZoom()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's scale on all axes."
+		},
+		{
+			"trigger": "zoomx",
+			"annotation": "(xScale)",
+			"contents": "zoomx(${1:xScale})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Scales the actor on the X axis."
+		},
+		{
+			"trigger": "GetZoomX",
+			"annotation": "() → number",
+			"contents": "GetZoomX()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's scale on the X axis."
+		},
+		{
+			"trigger": "GetCurrentZoomX",
+			"annotation": "() → number",
+			"contents": "GetCurrentZoomX()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's scale on the X axis. (CLARIFY)"
+		},
+		{
+			"trigger": "zoomy",
+			"annotation": "(yScale)",
+			"contents": "zoomy(${1:yScale})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Scales the actor on the Y axis."
+		},
+		{
+			"trigger": "GetZoomY",
+			"annotation": "() → number",
+			"contents": "GetZoomY()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's scale on the Y axis."
+		},
+		{
+			"trigger": "GetCurrentZoomY",
+			"annotation": "() → number",
+			"contents": "GetCurrentZoomY()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's scale on the Y axis. (CLARIFY)"
+		},
+		{
+			"trigger": "zoomz",
+			"annotation": "(zScale)",
+			"contents": "zoomz(${1:zScale})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Scales the actor on the Z axis."
+		},
+		{
+			"trigger": "GetZoomZ",
+			"annotation": "() → number",
+			"contents": "GetZoomZ()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's scale on the Z axis."
+		},
+		{
+			"trigger": "GetCurrentZoomZ",
+			"annotation": "() → number",
+			"contents": "GetCurrentZoomZ()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's scale on the Z axis. (CLARIFY)"
+		},
+		{
+			"trigger": "SetWidth",
+			"annotation": "(width)",
+			"contents": "SetWidth(${1:width})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the actor's width."
+		},
+		{
+			"trigger": "GetWidth",
+			"annotation": "() → number",
+			"contents": "GetWidth()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's width."
+		},
+		{
+			"trigger": "SetHeight",
+			"annotation": "(height)",
+			"contents": "SetHeight(${1:height})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the actor's height."
+		},
+		{
+			"trigger": "GetHeight",
+			"annotation": "() → number",
+			"contents": "GetHeight()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's height."
+		},
+		{
+			"trigger": "zoomtowidth",
+			"annotation": "(width)",
+			"contents": "zoomtowidth(${1:width})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Scales the actor on the X axis to fit <code>width</code>."
+		},
+		{
+			"trigger": "zoomtoheight",
+			"annotation": "(height)",
+			"contents": "zoomtowidth(${1:height})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Scales the actor on the X axis to fit <code>height</code>."
+		},
+		{
+			"trigger": "zoomto",
+			"annotation": "(width, height)",
+			"contents": "zoomto(${1:width}, ${2:height})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Scales the actor on the X and Y axis to fit <code>width</code> and <code>height</code> respectively."
+		},
+		{
+			"trigger": "scaletocover",
+			"annotation": "(left, top, right, bottom)",
+			"contents": "scaletocover(${1:left}, ${2:top}, ${3:right}, ${4:bottom})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Scales the actor to cover a rectangle, preserving aspect ratio."
+		},
+		{
+			"trigger": "stretchto",
+			"annotation": "(x1, y1, x2, y2)",
+			"contents": "stretchto(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Scales the actor to cover a rectangle using two coordinates, ignoring aspect ratio."
+		},
+		{
+			"trigger": "xywh",
+			"annotation": "(x, y, w, h)",
+			"contents": "xywh(${1:x}, ${2:y}, ${3:width}, ${4:height})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Sets the actor's X and Y position, as well as width and height."
+		},
+		{
+			"trigger": "basezoomx",
+			"annotation": "(xScale)",
+			"contents": "basezoomx(${1:xScale})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the actor's base X axis scale."
+		},
+		{
+			"trigger": "GetBaseZoomX",
+			"annotation": "() → number",
+			"contents": "GetBaseZoomX()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's base X axis scale."
+		},
+		{
+			"trigger": "basezoomy",
+			"annotation": "(yScale)",
+			"contents": "basezoomy(${1:yScale})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the actor's base Y axis scale."
+		},
+		{
+			"trigger": "GetBaseZoomY",
+			"annotation": "() → number",
+			"contents": "GetBaseZoomY()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's base Y axis scale."
+		},
+		{
+			"trigger": "basezoomz",
+			"annotation": "(zScale)",
+			"contents": "basezoomz(${1:zScale})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the actor's base Z axis scale."
+		},
+		{
+			"trigger": "GetBaseZoomZ",
+			"annotation": "() → number",
+			"contents": "GetBaseZoomZ()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's base Z axis scale."
+		},
+		{
+			"trigger": "skewx",
+			"annotation": "(skew)",
+			"contents": "skewx(${1:skew})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Skews the actor on the X axis."
+		},
+		{
+			"trigger": "GetSkewX",
+			"annotation": "() → number",
+			"contents": "GetSkewX()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Return the actor's skew value on the X axis."
+		},
+		{
+			"trigger": "skewy",
+			"annotation": "(skew)",
+			"contents": "skewy(${1:skew})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Skews the actor on the Y axis."
+		},
+		{
+			"trigger": "GetSkewY",
+			"annotation": "() → number",
+			"contents": "GetSkewY()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Return the actor's skew value on the Y axis."
+		},
+		{
+			"trigger": "skewto",
+			"annotation": "(skew)",
+			"contents": "skewto(${1:skew})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Skews the actor on the X axis based on it's original width."
+		},
+		{
+			"trigger": "skewx_before_rotation",
+			"annotation": "(skew)",
+			"contents": "skewx_before_rotation(${1:skew})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Skews the actor on the X axis before applying rotation."
+		},
+		{
+			"trigger": "skewy_before_rotation",
+			"annotation": "(skew)",
+			"contents": "skewy_before_rotation(${1:skew})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Skews the actor on the Y axis before applying rotation."
+		},
+		{
+			"trigger": "x2",
+			"annotation": "(x)",
+			"contents": "x2(${1:x})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's X position."
+		},
+		{
+			"trigger": "y2",
+			"annotation": "(y)",
+			"contents": "y2(${1:y})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's Y position."
+		},
+		{
+			"trigger": "z2",
+			"annotation": "(z)",
+			"contents": "z2(${1:z})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's Z position."
+		},
+		{
+			"trigger": "xy2",
+			"annotation": "(x, y)",
+			"contents": "xy2(${1:x}, ${2:y})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's X and Y position."
+		},
+		{
+			"trigger": "xyz2",
+			"annotation": "(x, y, z)",
+			"contents": "xyz2(${1:x}, ${2:y}, ${3:z})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's X, Y and Z position."
+		},
+		{
+			"trigger": "rotationx2",
+			"annotation": "(xDeg)",
+			"contents": "rotationx2(${1:xDeg})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's X axis rotation."
+		},
+		{
+			"trigger": "rotationy2",
+			"annotation": "(yDeg)",
+			"contents": "rotationy2(${1:yDeg})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's Y axis rotation."
+		},
+		{
+			"trigger": "rotationz2",
+			"annotation": "(zDeg)",
+			"contents": "rotationz2(${1:zDeg})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's Y axis rotation."
+		},
+		{
+			"trigger": "rotationxyz2",
+			"annotation": "(xDeg, yDeg, zDeg)",
+			"contents": "rotationxyz2(${1:xDeg}, ${2:yDeg}, ${3:zDeg})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's X, Y, and Z axis rotation."
+		},
+		{
+			"trigger": "zoomx2",
+			"annotation": "(xScale)",
+			"contents": "zoomx2(${1:xScale})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offets the actor's X axis scale."
+		},
+		{
+			"trigger": "zoomy2",
+			"annotation": "(yScale)",
+			"contents": "zoomy2(${1:yScale})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offets the actor's Y axis scale."
+		},
+		{
+			"trigger": "zoomz2",
+			"annotation": "(zScale)",
+			"contents": "zoomz2(${1:zScale})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offets the actor's Z axis scale."
+		},
+		{
+			"trigger": "zoomxyz2",
+			"annotation": "(xScale, yScale, zScale)",
+			"contents": "zoomxyz2(${1:xScale}, ${2:yScale}, ${3:zScale})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offets the actor's X, Y, and Z axis scale."
+		},
+		{
+			"trigger": "skewx2",
+			"annotation": "(skew)",
+			"contents": "skewx2(${1:skew})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's X axis skew."
+		},
+		{
+			"trigger": "skewy2",
+			"annotation": "(skew)",
+			"contents": "skewy2(${1:skew})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Offsets the actor's Y axis skew."
+		},
+		{
+			"trigger": "aux",
+			"annotation": "(aux)",
+			"contents": "aux(${1:aux})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Sets the actor's aux value."
+		},
+		{
+			"trigger": "getaux",
+			"annotation": "() → number",
+			"contents": "getaux()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's aux value."
+		},
+		{
+			"trigger": "addaux",
+			"annotation": "(aux)",
+			"contents": "addaux(${1:aux})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Adds <code>aux</code> the actor's aux value."
+		},
+		{
+			"trigger": "halign",
+			"annotation": "(h)",
+			"contents": "halign(${1:h})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Set the actor's horizonal alignment. 0 aligns to left, 1 aligns to right."
+		},
+		{
+			"trigger": "valign",
+			"annotation": "(v)",
+			"contents": "valign(${1:v})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Set the actor's vertical alignment. 0 aligns to bottom, 1 aligns to top."
+		},
+		{
+			"trigger": "align",
+			"annotation": "(h, v)",
+			"contents": "align(${1:h}, ${2:v})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Set the actor's horizonal and vertical alignment."
+		},
+		{
+			"trigger": "zbias",
+			"annotation": "(bias)",
+			"contents": "zbias(${1:bias})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Set the actor's Z axis bias. Useful for combating Z-fighting. Defaults to 0."
+		},
+		{
+			"trigger": "zwrite",
+			"annotation": "(0 or 1)",
+			"contents": "zwrite(${1:1})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Writes the actor to the depth buffer. 0 = False, 1 = True"
+		},
+		{
+			"trigger": "zbuffer",
+			"annotation": "(0 or 1)",
+			"contents": "zbuffer(${1:1})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Allows the actor to access the depth buffer. 0 = False, 1 = True"
+		},
+		{
+			"trigger": "ztest",
+			"annotation": "(0 or 1)",
+			"contents": "ztest(${1:1})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Shorthand for <code>ztestmode</code>. 0 = <code>writeonfail</code>, 1 = <code>writeonpass</code>"
+		},
+		{
+			"trigger": "ztestmode",
+			"annotation": "(mode)",
+			"contents": "ztestmode('${1:mode}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the actor's depth buffer test mode. Valid modes are <code>off</code>, <code>writeonpass</code>, and <code>writeonfail</code>."
+		},
+		{
+			"trigger": "clearzbuffer",
+			"annotation": "(0 or 1)",
+			"contents": "clearzbuffer(${1:1})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Clears the depth buffer when the actor is drawn."
+		},
+		{
+			"trigger": "hidden",
+			"annotation": "(0 or 1)",
+			"contents": "hidden(${1:1})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Hides the actor and halts all draw calls. 0 = False, 1 = True"
+		},
+		{
+			"trigger": "GetHidden",
+			"annotation": "() → bool",
+			"contents": "GetHidden()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns if the actor is hidden or not."
+		},
+		{
+			"trigger": "visible",
+			"annotation": "(0 or 1)",
+			"contents": "visible(${1:1})",
+			"kind": ["function", "a", "Actor"],
+			"details": "The exact opposite of <code>hidden</code>. 0 = False, 1 = True"
+		},
+		{
+			"trigger": "hibernate",
+			"annotation": "(sec)",
+			"contents": "hibernate(${1:sec})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Hides the actor for <code>n</code> seconds."
+		},
+		{
+			"trigger": "GetParent",
+			"annotation": "() → actorframe",
+			"contents": "GetParent()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's parent ActorFrame. Can return <code>nil</code>."
+		},
+		{
+			"trigger": "SetName",
+			"annotation": "(name)",
+			"contents": "SetName('${1:name}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the actor's name."
+		},
+		{
+			"trigger": "GetName",
+			"annotation": "() → string",
+			"contents": "GetName()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's name."
+		},
+		{
+			"trigger": "diffuse",
+			"annotation": "(r, g, b, a)",
+			"contents": "diffuse(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor with normalized RGBA values."
+		},
+		{
+			"trigger": "getdiffuse",
+			"annotation": "() → r, g, b, a",
+			"contents": "getdiffuse()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's diffuse."
+		},
+		{
+			"trigger": "diffusecolor",
+			"annotation": "(r, g, b)",
+			"contents": "diffusecolor(${1:r}, ${2:g}, ${3:b})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor, ignoring the alpha component."
+		},
+		{
+			"trigger": "diffusealpha",
+			"annotation": "(alpha)",
+			"contents": "diffusealpha(${1:alpha})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor, ignoring the RGB components."
+		},
+		{
+			"trigger": "diffusebottomedge",
+			"annotation": "(r, g, b, a)",
+			"contents": "diffusebottomedge(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor's bottom edge with normalized RGBA values."
+		},
+		{
+			"trigger": "diffuseleftedge",
+			"annotation": "(r, g, b, a)",
+			"contents": "diffuseleftedge(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor's left edge with normalized RGBA values."
+		},
+		{
+			"trigger": "diffuserightedge",
+			"annotation": "(r, g, b, a)",
+			"contents": "diffuserightedge(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor's right edge with normalized RGBA values."
+		},
+		{
+			"trigger": "diffusetopedge",
+			"annotation": "(r, g, b, a)",
+			"contents": "diffusetopedge(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor's top edge with normalized RGBA values."
+		},
+		{
+			"trigger": "diffuseupperleft",
+			"annotation": "(r, g, b, a)",
+			"contents": "diffuseupperleft(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor's upper left corner with normalized RGBA values."
+		},
+		{
+			"trigger": "diffuseupperright",
+			"annotation": "(r, g, b, a)",
+			"contents": "diffuseupperright(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor's upper right corner with normalized RGBA values."
+		},
+		{
+			"trigger": "diffusebottomleft",
+			"annotation": "(r, g, b, a)",
+			"contents": "diffusebottomleft(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor's lower left corner with normalized RGBA values."
+		},
+		{
+			"trigger": "diffusebottomright",
+			"annotation": "(r, g, b, a)",
+			"contents": "diffusebottomright(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor, Tweenable"],
+			"details": "Diffuses the actor's bottom right corner with normalized RGBA values."
+		},
+		{
+			"trigger": "bounce",
+			"annotation": "()",
+			"contents": "bounce()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Makes the actor bounce. Use with <code>effectmagnitude</code>."
+		},
+		{
+			"trigger": "bob",
+			"annotation": "()",
+			"contents": "bob()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Moves the actor on a sine wave. Use with <code>effectmagnitude</code>."
+		},
+		{
+			"trigger": "diffuseblink",
+			"annotation": "()",
+			"contents": "diffuseblink()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Diffuses the actor between two colors. Use with <code>effectcolor1</code> and <code>effectcolor2</code>."
+		},
+		{
+			"trigger": "diffuseramp",
+			"annotation": "()",
+			"contents": "diffuseramp()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Diffuse the actor between two colors on a sawtooth wave. Use with <code>effectcolor1</code> and <code>effectcolor2</code>."
+		},
+		{
+			"trigger": "diffuseshift",
+			"annotation": "()",
+			"contents": "diffuseshift()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Diffuse the actor between two colors on a sine wave. Use with <code>effectcolor1</code> and <code>effectcolor2</code>."
+		},
+		{
+			"trigger": "glowblink",
+			"annotation": "()",
+			"contents": "glowblink()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Glow the actor between two colors. Use with <code>effectcolor1</code> and <code>effectcolor2</code>."
+		},
+		{
+			"trigger": "glowramp",
+			"annotation": "()",
+			"contents": "glowramp()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Glow the actor between two colors on a sawtooth wave. Use with <code>effectcolor1</code> and <code>effectcolor2</code>."
+		},
+		{
+			"trigger": "glowshift",
+			"annotation": "()",
+			"contents": "glowshift()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Glow the actor between two colors on a sine wave. Use with <code>effectcolor1</code> and <code>effectcolor2</code>."
+		},
+		{
+			"trigger": "pulse",
+			"annotation": "()",
+			"contents": "pulse()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Scales the actor on a sine wave. Use with <code>effectmagnitude</code>."
+		},
+		{
+			"trigger": "pulseramp",
+			"annotation": "()",
+			"contents": "pulseramp()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Scales the actor on a sawtooth wave. Use with <code>effectmagnitude</code>."
+		},
+		{
+			"trigger": "wag",
+			"annotation": "()",
+			"contents": "wag()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Rotates the actor on a sine wave. Use with <code>effectmagnitude</code>."
+		},
+		{
+			"trigger": "floorwag",
+			"annotation": "()",
+			"contents": "floorwag()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Rotates the actor on a floored sine wave. Use with <code>effectmagnitude</code>."
+		},
+		{
+			"trigger": "rainbow",
+			"annotation": "()",
+			"contents": "rainbow()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Turns the actor gay."
+		},
+		{
+			"trigger": "spin",
+			"annotation": "()",
+			"contents": "spin()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Spins the actor. Use with <code>effectmagnitude</code>."
+		},
+		{
+			"trigger": "vibrate",
+			"annotation": "()",
+			"contents": "vibrate()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Vibrates the actor. Use with <code>effectmagnitude</code>."
+		},
+		{
+			"trigger": "GetSecsIntoEffect",
+			"annotation": "() → number",
+			"contents": "GetSecsIntoEffect()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the amount of time in seconds the actor has been running an effect."
+		},
+		{
+			"trigger": "stopeffect",
+			"annotation": "()",
+			"contents": "stopeffect()",
+			"kind": ["type", "e", "Effect"],
+			"details": "Ends all running effects on the actor."
+		},
+		{
+			"trigger": "effectperiod",
+			"annotation": "(period)",
+			"contents": "effectperiod(${1:period})",
+			"kind": ["type", "e", "Effect"],
+			"details": "Sets the current effect's period."
+		},
+		{
+			"trigger": "effectclock",
+			"annotation": "(clock)",
+			"contents": "effectclock('${1:clock}')",
+			"kind": ["type", "e", "Effect"],
+			"details": "Sets the effect's period to a specific timer. Valid modes are <code>'timer'</code>, <code>'beat'</code>, <code>'music'</code>, and <code>'bgm'</code>."
+		},
+		{
+			"trigger": "effectdelay",
+			"annotation": "(delay)",
+			"contents": "effectdelay(${1:delay})",
+			"kind": ["type", "e", "Effect"],
+			"details": "Delays an effect for <code>delay</code> seconds before looping."
+		},
+		{
+			"trigger": "effectoffset",
+			"annotation": "(offset)",
+			"contents": "effectoffset(${1:offset})",
+			"kind": ["type", "e", "Effect"],
+			"details": "Offsets an effect for <code>offset</code> seconds."
+		},
+		{
+			"trigger": "GetEffectDelta",
+			"annotation": "() → number",
+			"contents": "GetEffectDelta()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the current effect delta of the actor."
+		},
+		{
+			"trigger": "effectmagnitude",
+			"annotation": "(x, y, z)",
+			"contents": "effectmagnitude(${1:x}, ${2:y}, ${3:z})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the magnitude of an effect for the X, Y, and Z axis."
+		},
+		{
+			"trigger": "geteffectmagnitude",
+			"annotation": "() → x, y, z",
+			"contents": "geteffectmagnitude()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns an effect's magnitude on the X, Y, and Z axis."
+		},
+		{
+			"trigger": "luaeffect",
+			"annotation": "(command)",
+			"contents": "luaeffect('${1:command}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Disables all effects and uses an actor command/hook to draw the actor instead. Causes the command <code>c</code> to be run every frame."
+		},
+		{
+			"trigger": "effectcolor1",
+			"annotation": "(r, g, b, a)",
+			"contents": "effectcolor1(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Defines the starting diffuse to use during diffuse effects using normalized RGBA values."
+		},
+		{
+			"trigger": "effectcolor2",
+			"annotation": "(r, g, b, a)",
+			"contents": "effectcolor2(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Defines the ending diffuse to use during diffuse effects using normalized RGBA values."
+		},
+		{
+			"trigger": "glow",
+			"annotation": "(r, g, b, a)",
+			"contents": "glow(${1:r}, ${2:g}, ${3:b}, ${4:a})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Defines the glow to use during glow effects using normalized RGBA values."
+		},
+		{
+			"trigger": "linear",
+			"annotation": "(time)",
+			"contents": "linear(${1:time})",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Interpolates between two tweenable states over <code>n</code> seconds."
+		},
+		{
+			"trigger": "accelerate",
+			"annotation": "(time)",
+			"contents": "accelerate(${1:time})",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Interpolates between two tweenable states over <code>n</code> seconds."
+		},
+		{
+			"trigger": "decelerate",
+			"annotation": "(time)",
+			"contents": "decelerate(${1:time})",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Interpolates between two tweenable states over <code>n</code> seconds."
+		},
+		{
+			"trigger": "spring",
+			"annotation": "(time)",
+			"contents": "spring(${1:time})",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Interpolates between two tweenable states over <code>n</code> seconds."
+		},
+		{
+			"trigger": "bouncebegin",
+			"annotation": "(time)",
+			"contents": "bouncebegin(${1:time})",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Interpolates between two tweenable states over <code>n</code> seconds."
+		},
+		{
+			"trigger": "bounceend",
+			"annotation": "(time)",
+			"contents": "bounceend(${1:time})",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Interpolates between two tweenable states over <code>n</code> seconds/"
+		},
+		{
+			"trigger": "sleep",
+			"annotation": "(time)",
+			"contents": "sleep(${1:time})",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Halts a tween chain for <code>n</code> seconds."
+		},
+		{
+			"trigger": "tween",
+			"annotation": "(time, expression)",
+			"contents": "tween(${1:time}, ${2:expression})",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Use <code>expression</code> to interpolate between two tweenable states over <code>time</code> seconds."
+		},
+		{
+			"trigger": "hurrytweening",
+			"annotation": "(mult)",
+			"contents": "hurrytweening(${1:mult})",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Multiply the speed of the actor's current tween by <code>mult</code>."
+		},
+		{
+			"trigger": "stoptweening",
+			"annotation": "()",
+			"contents": "stoptweening()",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Instantly ends the actor's tween chain, disregarding end states."
+		},
+		{
+			"trigger": "finishtweening",
+			"annotation": "()",
+			"contents": "finishtweening()",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Instantly ends the actor's tween chain, considering end states."
+		},
+		{
+			"trigger": "play",
+			"annotation": "()",
+			"contents": "play()",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Resumes the actor's current tween."
+		},
+		{
+			"trigger": "pause",
+			"annotation": "()",
+			"contents": "pause()",
+			"kind": ["navigation", "t", "Tween"],
+			"details": "Pauses the actor's current tween."
+		},
+		{
+			"trigger": "GetTweenTimeLeft",
+			"annotation": "() → number",
+			"contents": "GetTweenTimeLeft()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the remaining time in an actor's current tween."
+		},
+		{
+			"trigger": "cmd",
+			"annotation": "(cmd)",
+			"contents": "cmd('${1:cmd}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Runs a command string on the actor."
+		},
+		{
+			"trigger": "SetTextureFiltering",
+			"annotation": "(bool)",
+			"contents": "SetTextureFiltering(${1:true})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets whether textures should use cubic interpolation when scaled."
+		},
+		{
+			"trigger": "texturefiltering",
+			"annotation": "(bool)",
+			"contents": "texturefiltering(${1:true})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets whether textures should use cubic interpolation when scaled."
+		},
+		{
+			"trigger": "SetTextureWrapping",
+			"annotation": "(0 or 1)",
+			"contents": "SetTextureWrapping(${1:1})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets whether textures should wrap. 0 = False, 1 = True (CLARIFY)"
+		},
+		{
+			"trigger": "texturewrapping",
+			"annotation": "(0 or 1)",
+			"contents": "texturewrapping(${1:1})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets whether textures should wrap. 0 = False, 1 = True (CLARIFY)"
+		},
+		{
+			"trigger": "Draw",
+			"annotation": "()",
+			"contents": "Draw()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Manually draws the actor. Useful with <code>SetDrawFunction</code>."
+		},
+		{
+			"trigger": "SetShader",
+			"annotation": "(shader)",
+			"contents": "SetShader(${1:shader})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Render the actor with program <code>shader</code>. (CLARIFY)"
+		},
+		{
+			"trigger": "GetShader",
+			"annotation": "() → RageShaderProgram",
+			"contents": "GetShader()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the actor's shader program."
+		},
+		{
+			"trigger": "ClearShader",
+			"annotation": "()",
+			"contents": "ClearShader()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Removes the actor's shader program."
+		},
+		{
+			"trigger": "draworder",
+			"annotation": "(order)",
+			"contents": "draworder(${1:order})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Changes the render order of the actor."
+		},
+		{
+			"trigger": "backfacecull",
+			"annotation": "(0 or 1)",
+			"contents": "backfacecull(${1:1})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Defines whether back faces should be rendered or not. 0 = False, 1 = True"
+		},
+		{
+			"trigger": "cullmode",
+			"annotation": "('mode')",
+			"contents": "cullmode('${1:mode}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Defines which faces of the actor should be rendered. Valid modes are <code>back</code>, <code>front</code>, and <code>none</code>."
+		},
+		{
+			"trigger": "shadowlength",
+			"annotation": "(len)",
+			"contents": "shadowlength(${1:len})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the actor's shadow length."
+		},
+		{
+			"trigger": "fadeleft",
+			"annotation": "(n)",
+			"contents": "fadeleft(${1:n})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Fades the actor's left edge."
+		},
+		{
+			"trigger": "fadetop",
+			"annotation": "(n)",
+			"contents": "fadetop(${1:n})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Fades the actor's top edge."
+		},
+		{
+			"trigger": "faderight",
+			"annotation": "(n)",
+			"contents": "faderight(${1:n})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Fades the actor's right edge."
+		},
+		{
+			"trigger": "fadebottom",
+			"annotation": "(n)",
+			"contents": "fadebottom(${1:n})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Fades the actor's bottom edge."
+		},
+		{
+			"trigger": "fadeh",
+			"annotation": "(left, right)",
+			"contents": "fadeh(${1:left}, ${2:right})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Fades the actor's left and right edges."
+		},
+		{
+			"trigger": "fadev",
+			"annotation": "(top, bottom)",
+			"contents": "fadev(${1:top}, ${2:bottom})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Fades the actor's top and bottom edges."
+		},
+		{
+			"trigger": "fade",
+			"annotation": "(left, top, right, bottom)",
+			"contents": "fade(${1:left}, ${2:top}, ${3:right}, ${4:bottom})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Fades the actor's edges."
+		},
+		{
+			"trigger": "cropleft",
+			"annotation": "(n)",
+			"contents": "cropleft(${1:n})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Crops the actor's left edge."
+		},
+		{
+			"trigger": "croptop",
+			"annotation": "(t)",
+			"contents": "croptop(${1:n})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Crops the actor's top edge."
+		},
+		{
+			"trigger": "cropright",
+			"annotation": "(r)",
+			"contents": "cropright(${1:n})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Crops the actor's right edge."
+		},
+		{
+			"trigger": "cropbottom",
+			"annotation": "(b)",
+			"contents": "cropbottom(${1:n})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Crops the actor's bottom edge."
+		},
+		{
+			"trigger": "croph",
+			"annotation": "(left, right)",
+			"contents": "croph(${1:left}, ${2:right})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Crops the actor's left and right edges."
+		},
+		{
+			"trigger": "cropv",
+			"annotation": "(top, bottom)",
+			"contents": "cropv(${1:top}, ${2:bottom})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Crops the actor's top and bottom edges."
+		},
+		{
+			"trigger": "crop",
+			"annotation": "(left, top, right, bottom)",
+			"contents": "crop(${1:left}, ${2:top}, ${3:right}, ${4:bottom})",
+			"kind": ["navigation", "t", "Tweenable"],
+			"details": "Crops the actor's edges."
+		},
+		{
+			"trigger": "GetXMLDir",
+			"annotation": "() → string",
+			"contents": "GetXMLDir()",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns the directory containing the XML where the actor is defined."
+		},
+		{
+			"trigger": "playcommand",
+			"annotation": "(command)",
+			"contents": "playcommand('${1:command}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Execute command/hook <code>command</code> on the actor, ignoring tweens."
+		},
+		{
+			"trigger": "queuecommand",
+			"annotation": "(command)",
+			"contents": "queuecommand('${1:command}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Add command/hook <code>command</code> to the actor's tween chain."
+		},
+		{
+			"trigger": "addcommand",
+			"annotation": "(name, function)",
+			"contents": "addcommand('${1:name}', ${2:function})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Add command/hook <code>command</code> with <code>fn</code> to the actor directly."
+		},
+		{
+			"trigger": "removecommand",
+			"annotation": "(name)",
+			"contents": "removecommand('${1:name}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Removes command/hook <code>command</code> from the actor directly."
+		},
+		{
+			"trigger": "hascommand",
+			"annotation": "(name) → bool",
+			"contents": "hascommand('${1:name}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Returns if the actor has command/hook with <code>name</code>."
+		},
+		{
+			"trigger": "queuemessage",
+			"annotation": "(name)",
+			"contents": "queuemessage('${1:name}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Queues a message command. NOTE: Consider using <code>MESSAGEMAN:Broadcast</code> instead."
+		},
+		{
+			"trigger": "animate",
+			"annotation": "(0 or 1)",
+			"contents": "animate(${1:1})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Animates the actor's texture, used on sprites. 0 = False, 1 = True"
+		},
+		{
+			"trigger": "position",
+			"annotation": "(pos)",
+			"contents": "position(${1:pos})",
+			"kind": ["function", "a", "Actor"],
+			"details": "Sets the actor's animation's position. (CLARIFY)"
+		},
+		{
+			"trigger": "blend",
+			"annotation": "(mode)",
+			"contents": "blend('${1:mode}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Blends the actor. Valid modes are <code>normal</code>, <code>add</code>, <code>subtract</code>, <code>modulate</code>, <code>copysrc</code>, <code>alphamask</code>, <code>alphaknockout</code>, <code>alphamultiply</code>, <code>weightedmultiply</code>, <code>invertdest</code>, and <code>noeffect</code>."
+		},
+		{
+			"trigger": "additiveblend",
+			"annotation": "(0 or 1)",
+			"contents": "additiveblend('${1:1}')",
+			"kind": ["function", "a", "Actor"],
+			"details": "Blends the actor with mode <code>add</code>. 0 = False, 1 = True"
+		},
+
+
+		// ActorFrame
+
+
+		{
+			"trigger": "fov",
+			"annotation": "(fov)",
+			"contents": "fov(${1:fov})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Sets the ActorFrame's field of view. Defaults to 45."
+		},
+		{
+			"trigger": "SetFOV",
+			"annotation": "(fov)",
+			"contents": "SetFOV(${1:fov})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Sets the ActorFrame's field of view. Defaults to 45."
+		},
+		{
+			"trigger": "SetUpdateCommand",
+			"annotation": "(command)",
+			"contents": "SetUpdateCommand('${1:command}')",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Runs <code>command</code> on the ActorFrame every frame."
+		},
+		{
+			"trigger": "SetUpdateFunction",
+			"annotation": "(function)",
+			"contents": "SetUpdateFunction(${1:function})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Runs <code>function</code> on the ActorFrame every frame."
+		},
+		{
+			"trigger": "SetUpdateRate",
+			"annotation": "(rate)",
+			"contents": "SetUpdateRate(${1:rate})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Sets how frequently the ActorFrame should run it's update command/function. (CLARIFY)"
+		},
+		{
+			"trigger": "GetNumChildren",
+			"annotation": "()",
+			"contents": "GetNumChildren()",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Returns the number of children the ActorFrame has."
+		},
+		{
+			"trigger": "GetChildren",
+			"annotation": "()",
+			"contents": "GetChildren()",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Returns all children in the ActorFrame."
+		},
+		{
+			"trigger": "GetChild",
+			"annotation": "()",
+			"contents": "GetChild('${1:name}')",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Returns child with <code>name</code>."
+		},
+		{
+			"trigger": "GetChildAt",
+			"annotation": "(index)",
+			"contents": "GetChildAt(${1:index})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Returns child with index <code>i</code>."
+		},
+		{
+			"trigger": "SetFarDist",
+			"annotation": "(dist)",
+			"contents": "SetFarDist(${1:dist})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Sets the ActorFrame's far clipping plane."
+		},
+		{
+			"trigger": "SetVanishX",
+			"annotation": "(x)",
+			"contents": "SetVanishX(${1:x})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Sets the ActorFrame's vanishing point on the X axis."
+		},
+		{
+			"trigger": "SetVanishY",
+			"annotation": "(y)",
+			"contents": "SetVanishY(${1:y})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Sets the ActorFrame's vanishing point on the Y axis."
+		},
+		{
+			"trigger": "SetVanishPoint",
+			"annotation": "(x, y)",
+			"contents": "SetVanishPoint(${1:x}, ${2:y})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Sets the ActorFrame's vanishing point on the X and Y axis."
+		},
+		{
+			"trigger": "propagate",
+			"annotation": "(0 or 1)",
+			"contents": "propagate(${1:1})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Sets whether commands should be propagated to children. 0 = False, 1 = True"
+		},
+		{
+			"trigger": "propagateshaders",
+			"annotation": "(0 or 1)",
+			"contents": "propagateshaders(${1:1})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Sets whether shader should be propagated to children. 0 = False, 1 = True"
+		},
+		{
+			"trigger": "SetDrawFunction",
+			"annotation": "(function)",
+			"contents": "SetDrawFunction(${1:function})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Sets the ActorFames's draw function. Use <code>Draw</code> to draw an actor."
+		},
+		{
+			"trigger": "SetDrawByZPosition",
+			"annotation": "(bool)",
+			"contents": "SetDrawByZPosition(${1:true})",
+			"kind": ["function", "f", "ActorFrame"],
+			"details": "Allows the draw order of the ActorFrame's children to be set by their Z position."
+		},
+
+		// ActorFrameTexture
+
+		{
+			"trigger": "Create",
+			"annotation": "()",
+			"contents": "Create()",
+			"kind": ["function", "t", "ActorFrameTexture"],
+			"details": "Creates a render target. NOTE: Must be called before using an AFT."
+		},
+		{
+			"trigger": "Recreate",
+			"annotation": "()",
+			"contents": "Recreate()",
+			"kind": ["function", "t", "ActorFrameTexture"],
+			"details": "Recreates the render target."
+		},
+		{
+			"trigger": "EnableAlphaBuffer",
+			"annotation": "(bool)",
+			"contents": "EnableAlphaBuffer(${1:bool})",
+			"kind": ["function", "t", "ActorFrameTexture"],
+			"details": "Enables the alpha buffer."
+		},
+		{
+			"trigger": "EnableDepthBuffer",
+			"annotation": "(bool)",
+			"contents": "EnableDepthBuffer(${1:bool})",
+			"kind": ["function", "t", "ActorFrameTexture"],
+			"details": "Enables the depth buffer."
+		},
+		{
+			"trigger": "EnablePreserveTexture",
+			"annotation": "(bool)",
+			"contents": "EnablePreserveTexture(${1:bool})",
+			"kind": ["function", "t", "ActorFrameTexture"],
+			"details": "Enables textures to be preserved between draws."
+		},
+		{
+			"trigger": "EnableFloat",
+			"annotation": "(bool)",
+			"contents": "EnableFloat(${1:bool})",
+			"kind": ["function", "t", "ActorFrameTexture"],
+			"details": "Enables floating point buffers."
+		},
+		{
+			"trigger": "GetTexture",
+			"annotation": "()",
+			"contents": "GetTexture()",
+			"kind": ["function", "t", "ActorFrameTexture"],
+			"details": "Returns the texture/render target."
+		},
+		{
+			"trigger": "SetTextureName",
+			"annotation": "(name)",
+			"contents": "SetTextureName('${1:name}')",
+			"kind": ["function", "t", "ActorFrameTexture"],
+			"details": "Set the name of the texture/render target."
+		},
+		{
+			"trigger": "GetTextureName",
+			"annotation": "()",
+			"contents": "GetTextureName()",
+			"kind": ["function", "t", "ActorFrameTexture"],
+			"details": "Returns the name of the texture/render target."
+		},
+
+		// Gamestate
+
+		{
+			"trigger": "GetMusicRate",
+			"annotation": "() → number",
+			"contents": "GetMusicRate()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the playback speed of the music."
+		},
+		{
+			"trigger": "IsSyncDataChanged",
+			"annotation": "() → bool",
+			"contents": "IsSyncDataChanged()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns whether the user has edited the song/machine offset."
+		},
+		{
+			"trigger": "GetPlayerDisplayName",
+			"annotation": "(pn) → string",
+			"contents": "GetPlayerDisplayName(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the display name for the specified player."
+		},
+		{
+			"trigger": "GetSortOrder",
+			"annotation": "(pn) → string",
+			"contents": "GetSortOrder(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the display name for the specified player."
+		},
+		{
+			"trigger": "HideStageText",
+			"annotation": "(bool)",
+			"contents": "HideStageText(${1:true})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "???"
+		},
+		{
+			"trigger": "IsEditMode",
+			"annotation": "(bool)",
+			"contents": "IsEditMode(${1:true})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns whether if the game is in edit mode."
+		},
+		{
+			"trigger": "Crash",
+			"annotation": "('msg')",
+			"contents": "Crash('${1:msg}')",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Forcibly crash the game with a given message."
+		},
+		{
+			"trigger": "DelayedGameCommand",
+			"annotation": "(cmd)",
+			"contents": "DelayedGameCommand('${1:cmd}')",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Execute <code>cmd</code> on both players on next update."
+		},
+		{
+			"trigger": "PlayerCanJoin",
+			"annotation": "() → bool",
+			"contents": "PlayerCanJoin()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns whether players can join the game."
+		},
+		{
+			"trigger": "GetMasterPlayerNumber",
+			"annotation": "() → number",
+			"contents": "GetMasterPlayerNumber()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Determines if the user is controlling the game from the P1 or P2 side. (0-indexed)"
+		},
+		{
+			"trigger": "GetVersionDate",
+			"annotation": "() → string",
+			"contents": "GetVersionDate()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the version date string. (YYYYMMDD)"
+		},
+		{
+			"trigger": "GetEditSourceSteps",
+			"annotation": "() → [Steps]",
+			"contents": "GetEditSourceSteps()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Gets the source <code>Steps</code> for the editor, or <code>nil</code> if not in edit mode."
+		},
+		{
+			"trigger": "SetPreferredSong",
+			"annotation": "(song)",
+			"contents": "SetPreferredSong(song)",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Sets the preferred song to <code>song</code>. (CLARIFY)"
+		},
+		{
+			"trigger": "GetPreferredSong",
+			"annotation": "() → Song",
+			"contents": "GetPreferredSong()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the preferred song. (CLARIFY)"
+		},
+		{
+			"trigger": "GetRealPath",
+			"annotation": "(path) → string",
+			"contents": "GetRealPath('${1:path}')",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the \"real\" path for a given virtual path."
+		},
+		{
+			"trigger": "PlayerDifficulty",
+			"annotation": "(pn) → enum",
+			"contents": "PlayerDifficulty(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the difficulty rating of a current player’s steps."
+		},
+		{
+			"trigger": "GetPlayMode",
+			"annotation": "() → enum",
+			"contents": "GetPlayMode()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the current play mode."
+		},
+		{
+			"trigger": "IsSideJoined",
+			"annotation": "(pn) → bool",
+			"contents": "IsSideJoined(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns whether a given player has joined the game. (0-indexed)"
+		},
+		{
+			"trigger": "ApplyGameCommand",
+			"annotation": "('cmd', [pn])",
+			"contents": "ApplyGameCommand('${1:cmd}')",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Executes <code>cmd</code> for both or a specific player. NOTE: <code>ApplyModifiers</code> is preferred."
+		},
+		{
+			"trigger": "IsEventMode",
+			"annotation": "() → bool",
+			"contents": "IsEventMode()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns whether event mode is enabled."
+		},
+		{
+			"trigger": "SetTemporaryEventMode",
+			"annotation": "(bool)",
+			"contents": "SetTemporaryEventMode(${1:true})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Toggles temporary event mode. (CLARIFY)"
+		},
+		{
+			"trigger": "GetPremium",
+			"annotation": "() → enum",
+			"contents": "GetPremium()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the current premium mode."
+		},
+		{
+			"trigger": "ApplyModifiers",
+			"annotation": "('cmd', [pn])",
+			"contents": "ApplyModifiers('${1:cmd}')",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Optimized version of <code>ApplyGameCommand</code>."
+		},
+		{
+			"trigger": "KeyPress",
+			"annotation": "(keyCode)",
+			"contents": "KeyPress(keyCode)",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Simulates a key press."
+		},
+		{
+			"trigger": "ForceSmoothLines",
+			"annotation": "(0 or 1)",
+			"contents": "ForceSmoothLines(${1:1})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Simulates a key press."
+		},
+		{
+			"trigger": "RecompileShadersOnResize",
+			"annotation": "(bool)",
+			"contents": "RecompileShadersOnResize(${1:true})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "???"
+		},
+		{
+			"trigger": "GetX",
+			"annotation": "(pn, col, yOffset) → number",
+			"contents": "GetX(${1:pn}, ${2:col}, ${3:yOffset})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Gets the X position of a note located on column <code>col</code>."
+		},
+		{
+			"trigger": "GetY",
+			"annotation": "(pn, col, yOffset) → number",
+			"contents": "GetY(${1:pn}, ${2:col}, ${3:yOffset})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Gets the Y position of a note located on column <code>col</code>."
+		},
+		{
+			"trigger": "GetZ",
+			"annotation": "(pn, col, yOffset) → number",
+			"contents": "GetZ(${1:pn}, ${2:col}, ${3:yOffset})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Gets the Z position of a note located on column <code>col</code>."
+		},
+		{
+			"trigger": "IsDisqualified",
+			"annotation": "(pn) → bool",
+			"contents": "IsDisqualified(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns if player <code>pn</code> is disqualified."
+		},
+		{
+			"trigger": "SetInputMode",
+			"annotation": "(enum)",
+			"contents": "SetInputMode(${1:enum})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Changes the input mode. (CLARIFY)"
+		},
+		{
+			"trigger": "GetInputMode",
+			"annotation": "() → enum",
+			"contents": "GetInputMode()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the current input mode. (CLARIFY)"
+		},
+		{
+			"trigger": "GetPlayerNameFromNameEntry",
+			"annotation": "(pn) → string",
+			"contents": "GetPlayerNameFromNameEntry(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Gets the short name for player <code>pn</code>. (0-indexed)"
+		},
+		{
+			"trigger": "IsHumanPlayer",
+			"annotation": "(pn) → bool",
+			"contents": "IsHumanPlayer(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns whether player <code>pn</code> is human or AI. (0-indexed)"
+		},
+		{
+			"trigger": "IsPlayerEnabled",
+			"annotation": "(pn) → bool",
+			"contents": "IsPlayerEnabled(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns whether player <code>pn</code> is enabled. (0-indexed)"
+		},
+		{
+			"trigger": "JoinPlayer",
+			"annotation": "(pn)",
+			"contents": "JoinPlayer(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Joins player <code>pn</code> without deducting any coins. (0-indexed)"
+		},
+		{
+			"trigger": "GetCoinMode",
+			"annotation": "() → enum",
+			"contents": "GetCoinMode()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the current coin mode."
+		},
+		{
+			"trigger": "GetCoins",
+			"annotation": "() → number",
+			"contents": "GetCoins()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the number of remaining coins."
+		},
+		{
+			"trigger": "GetEasiestStepsDifficulty",
+			"annotation": "() → number",
+			"contents": "GetEasiestStepsDifficulty()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the easiest difficulty chosen by players."
+		},
+		{
+			"trigger": "LaunchAttack",
+			"annotation": "(startTime, len, 'mods'[, pn])",
+			"contents": "LaunchAttack(${1:startTime}, ${2:len}, '${3:mods}')",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Registers an attack to be launched. NOTE: Disables all active Lua; call in InitCommand."
+		},
+		{
+			"trigger": "SetExternal",
+			"annotation": "(index, flag)",
+			"contents": "SetExternal(${1:index}, ${2:flag})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Sets a number on a static external memory address."
+		},
+		{
+			"trigger": "GetExternal",
+			"annotation": "(index) → number",
+			"contents": "GetExternal(${1:index}})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns a number on a static external memory address."
+		},
+		{
+			"trigger": "SetSongBeat",
+			"annotation": "(beat)",
+			"contents": "SetSongBeat(${1:beat})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Sets the song's beat to <code>beat</code>. Use <code>ReloadSteps</code> to update notes."
+		},
+		{
+			"trigger": "GetSongBeat",
+			"annotation": "() → number",
+			"contents": "GetSongBeat()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the current song beat."
+		},
+		{
+			"trigger": "GetSongBeatVisible",
+			"annotation": "() → number",
+			"contents": "GetSongBeatVisible()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the current song beat ignoring offset/visual delay. (May be broken; try <code>GAMESTATE:GetSongBeat() + (PREFSMAN:GetPreference('GlobalOffsetSeconds') * GAMESTATE:GetCurBPS())</code>)"
+		},
+		{
+			"trigger": "SetSongPosition",
+			"annotation": "(time)",
+			"contents": "SetSongPosition(${1:time})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Sets the song's time to <code>time</code> in seconds. Use <code>ReloadSteps</code> to update notes."
+		},
+		{
+			"trigger": "GetSongTime",
+			"annotation": "() → number",
+			"contents": "GetSongTime()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the current song time."
+		},
+		{
+			"trigger": "GetSongTimeVisible",
+			"annotation": "() → number",
+			"contents": "GetSongTimeVisible()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the current song time ignoring offset/visual delay. (May be broken; try <code>GAMESTATE:GetSongTime() + PREFSMAN:GetPreference('GlobalOffsetSeconds')</code>)"
+		},
+		{
+			"trigger": "GetCurBPS",
+			"annotation": "() → number",
+			"contents": "GetCurBPS()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the current number of beats per second (BPS)."
+		},
+		{
+			"trigger": "GetCurBPM",
+			"annotation": "() → number",
+			"contents": "GetCurBPM()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Returns the current number of beats per minute (BPM)."
+		},
+		{
+			"trigger": "ReloadSteps",
+			"annotation": "(pn)",
+			"contents": "ReloadSteps(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Reloads steps for player <code>pn</code>. (0-indexed)"
+		},
+		{
+			"trigger": "UnloadSteps",
+			"annotation": "(pn)",
+			"contents": "UnloadSteps(${1:pn})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Unloads steps for player <code>pn</code>. (0-indexed)"
+		},
+		{
+			"trigger": "FinishSong",
+			"annotation": "(pn)",
+			"contents": "FinishSong()",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Ends a song. Equivalent to <code>Send Notes Ended</code>."
+		},
+		{
+			"trigger": "SetSongEndTime",
+			"annotation": "(time)",
+			"contents": "SetSongEndTime(${1:time})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Stes when the song should end in seconds."
+		},
+		{
+			"trigger": "OnlyOpenITGMods",
+			"annotation": "(bool)",
+			"contents": "OnlyOpenITGMods(${1:true})",
+			"kind": ["snippet", "g", "Gamestate"],
+			"details": "Set whether the mod selection should be limited to just the ones available in OpenITG."
+		},
+
+		// Player
+
+		{
+			"trigger": "SetAwake",
+			"annotation": "(bool)",
+			"contents": "SetAwake(${1:true})",
+			"kind": ["function", "p", "Player"],
+			"details": "Activates the playfield."
+		},
+		{
+			"trigger": "IsAwake",
+			"annotation": "() → bool",
+			"contents": "IsAwake()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns whether the playfield is active."
+		},
+		{
+			"trigger": "IsUsingCMod",
+			"annotation": "() → bool",
+			"contents": "IsUsingCMod()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns whether the player is using a CMod."
+		},
+		{
+			"trigger": "GetCMod",
+			"annotation": "() → number",
+			"contents": "GetCMod()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns the player's CMod. NOTE: Will return a value even if the player isn't using a CMod."
+		},
+		{
+			"trigger": "GetXMod",
+			"annotation": "() → number",
+			"contents": "GetXMod()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns the player's XMod. NOTE: Will return a value even if the player isn't using a XMod."
+		},
+		{
+			"trigger": "GetSpeedMod",
+			"annotation": "() → number",
+			"contents": "GetSpeedMod()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns the player's scroll speed."
+		},
+		{
+			"trigger": "SetCombo",
+			"annotation": "(combo)",
+			"contents": "SetCombo(${1:combo})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the player's combo."
+		},
+		{
+			"trigger": "GetCombo",
+			"annotation": "() → number",
+			"contents": "GetCombo()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns the player's combo."
+		},
+		{
+			"trigger": "SetMissCombo",
+			"annotation": "(combo)",
+			"contents": "SetMissCombo(${1:combo})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the player's miss combo."
+		},
+		{
+			"trigger": "GetMissCombo",
+			"annotation": "() → number",
+			"contents": "GetMissCombo()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns the player's miss combo."
+		},
+		{
+			"trigger": "SetNoteData",
+			"annotation": "(diff)",
+			"contents": "SetNoteData(${1:diff})",
+			"kind": ["function", "p", "Player"],
+			"details": "Assigns the player's step chart to <code>index</code> difficulty."
+		},
+		{
+			"trigger": "SetNoteDataFromLua",
+			"annotation": "(noteData)",
+			"contents": "SetNoteDataFromLua(${1:noteData})",
+			"kind": ["function", "p", "Player"],
+			"details": "Assigns the player's step chart with a table."
+		},
+		{
+			"trigger": "GetNoteData",
+			"annotation": "([startBeat, endBeat]) → table",
+			"contents": "GetNoteData(${1:startBeat}, ${2:endBeat})",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns a player's note data between <code>startBeat</code> and <code>endBeat</code> inclusive; will return all notes if <code>nil</code> is an argument."
+		},
+		{
+			"trigger": "PushNoteData",
+			"annotation": "(var [, startBeat, endBeat])",
+			"contents": "PushNoteData('${1:var}', ${2:startBeat}, ${3:endBeat})",
+			"kind": ["function", "p", "Player"],
+			"details": "Pushes a player's note data to global <code>var</code> between <code>startBeat</code> and <code>endBeat</code> inclusive. NOTE: <code>GetNoteData</code> may be preferred."
+		},
+		{
+			"trigger": "GetNoteDataTime",
+			"annotation": "()",
+			"contents": "GetNoteDataTime()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns a player's time-based note data."
+		},
+		{
+			"trigger": "SetXSpline",
+			"annotation": "(index, col, val, offset, rate)",
+			"contents": "SetXSpline(${1:index}, ${2:col}, ${3:val}, ${4:offset}, ${5:rate})",
+			"kind": ["function", "p", "Player"],
+			"details": "Adds an X axis spline."
+		},
+		{
+			"trigger": "ResetXSplines",
+			"annotation": "(col)",
+			"contents": "ResetXSplines(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all X axis splines for column <code>col</code>. (0-indexed)"
+		},
+		{
+			"trigger": "SetYSpline",
+			"annotation": "(index, col, val, offset, rate)",
+			"contents": "SetYSpline(${1:index}, ${2:col}, ${3:val}, ${4:offset}, ${5:rate})",
+			"kind": ["function", "p", "Player"],
+			"details": "Adds a Y axis spline."
+		},
+		{
+			"trigger": "ResetYSplines",
+			"annotation": "(col)",
+			"contents": "ResetYSplines(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all Y axis splines for column <code>col</code>. (0-indexed)"
+		},
+		{
+			"trigger": "SetZSpline",
+			"annotation": "(index, col, val, offset, rate)",
+			"contents": "SetZSpline(${1:index}, ${2:col}, ${3:val}, ${4:offset}, ${5:rate})",
+			"kind": ["function", "p", "Player"],
+			"details": "Adds a Z axis spline."
+		},
+		{
+			"trigger": "ResetZSplines",
+			"annotation": "(col)",
+			"contents": "ResetZSplines(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all Z axis splines for column <code>col</code>. (0-indexed)"
+		},
+		{
+			"trigger": "SetRotXSpline",
+			"annotation": "(index, col, val, offset, rate)",
+			"contents": "SetRotXSpline(${1:index}, ${2:col}, ${3:val}, ${4:offset}, ${5:rate})",
+			"kind": ["function", "p", "Player"],
+			"details": "Adds an X axis rotation spline."
+		},
+		{
+			"trigger": "ResetRotXSplines",
+			"annotation": "(col)",
+			"contents": "ResetRotXSplines(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all X axis rotation splines for column <code>col</code>. (0-indexed)"
+		},
+		{
+			"trigger": "SetRotYSpline",
+			"annotation": "(index, col, val, offset, rate)",
+			"contents": "SetRotYSpline(${1:index}, ${2:col}, ${3:val}, ${4:offset}, ${5:rate})",
+			"kind": ["function", "p", "Player"],
+			"details": "Adds a Y axis rotation spline."
+		},
+		{
+			"trigger": "ResetRotYSplines",
+			"annotation": "(col)",
+			"contents": "ResetRotYSplines(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all Y axis rotation splines for column <code>col</code>. (0-indexed)"
+		},
+		{
+			"trigger": "SetRotZSpline",
+			"annotation": "(index, col, val, offset, rate)",
+			"contents": "SetRotZSpline(${1:index}, ${2:col}, ${3:val}, ${4:offset}, ${5:rate})",
+			"kind": ["function", "p", "Player"],
+			"details": "Adds a Z axis rotation spline."
+		},
+		{
+			"trigger": "ResetRotZSplines",
+			"annotation": "(col)",
+			"contents": "ResetRotZSplines(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all Z axis rotation splines for column <code>col</code>. (0-indexed)"
+		},
+		{
+			"trigger": "SetSizeSpline",
+			"annotation": "(index, col, val, offset, rate)",
+			"contents": "SetSizeSpline(${1:index}, ${2:col}, ${3:val}, ${4:offset}, ${5:rate})",
+			"kind": ["function", "p", "Player"],
+			"details": "Adds a size spline. (Behaves like the mod <code>mini</code>)"
+		},
+		{
+			"trigger": "ResetSizeSplines",
+			"annotation": "(col)",
+			"contents": "ResetSizeSplines(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all size splines for column <code>col</code>. (0-indexed)"
+		},
+		{
+			"trigger": "SetSkewSpline",
+			"annotation": "(index, col, val, offset, rate)",
+			"contents": "SetSkewSpline(${1:index}, ${2:col}, ${3:val}, ${4:offset}, ${5:rate})",
+			"kind": ["function", "p", "Player"],
+			"details": "Adds a skew spline. (Behaves like the mod <code>skew</code>)"
+		},
+		{
+			"trigger": "ResetSkewSplines",
+			"annotation": "(col)",
+			"contents": "ResetSkewSplines(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all skew splines for column <code>col</code>. (0-indexed)"
+		},
+		{
+			"trigger": "SetStealthSpline",
+			"annotation": "(index, col, val, offset, rate)",
+			"contents": "SetStealthSpline(${1:index}, ${2:col}, ${3:val}, ${4:offset}, ${5:rate})",
+			"kind": ["function", "p", "Player"],
+			"details": "Adds a stealth spline. (Behaves like the mod <code>stealth</code>)"
+		},
+		{
+			"trigger": "ResetStealthSplines",
+			"annotation": "(col)",
+			"contents": "ResetStealthSplines(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all stealth splines for column <code>col</code>. (0-indexed)"
+		},
+		{
+			"trigger": "NoClearSplines",
+			"annotation": "(bool)",
+			"contents": "NoClearSplines(${1:true})",
+			"kind": ["function", "p", "Player"],
+			"details": "Set whether the <code>mod,clearall</code> command should reset splines. (Set this to <code>true</code> for splines set every frame)"
+		},
+		{
+			"trigger": "SetArrowShader",
+			"annotation": "(shader)",
+			"contents": "SetArrowShader(${1:shader})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets a shader to use for drawing arrows."
+		},
+		{
+			"trigger": "GetArrowShader",
+			"annotation": "() → RageShaderProgram",
+			"contents": "GetArrowShader()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns the shader used for drawing arrows."
+		},
+		{
+			"trigger": "ClearArrowShader",
+			"annotation": "()",
+			"contents": "ClearArrowShader()",
+			"kind": ["function", "p", "Player"],
+			"details": "Remove all arrow shaders."
+		},
+		{
+			"trigger": "SetHoldShader",
+			"annotation": "(shader)",
+			"contents": "SetHoldShader(${1:shader})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets a shader to use for drawing holds."
+		},
+		{
+			"trigger": "GetHoldShader",
+			"annotation": "() → RageShaderProgram",
+			"contents": "GetHoldShader()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns the shader used for drawing holds."
+		},
+		{
+			"trigger": "ClearHoldShader",
+			"annotation": "()",
+			"contents": "ClearHoldShader()",
+			"kind": ["function", "p", "Player"],
+			"details": "Remove all hold shaders."
+		},
+		{
+			"trigger": "SetReceptorShader",
+			"annotation": "(shader)",
+			"contents": "SetReceptorShader(${1:shader})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets a shader to use for drawing receptors."
+		},
+		{
+			"trigger": "GetReceptorShader",
+			"annotation": "() → RageShaderProgram",
+			"contents": "GetReceptorShader()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns the shader used for drawing receptors."
+		},
+		{
+			"trigger": "ClearReceptorShader",
+			"annotation": "()",
+			"contents": "ClearReceptorShader()",
+			"kind": ["function", "p", "Player"],
+			"details": "Remove all receptor shaders."
+		},
+		{
+			"trigger": "SetArrowPathShader",
+			"annotation": "(shader)",
+			"contents": "SetArrowPathShader(${1:shader})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets a shader to use for drawing arrow paths."
+		},
+		{
+			"trigger": "GetArrowPathShader",
+			"annotation": "() → RageShaderProgram",
+			"contents": "GetArrowPathShader()",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns the shader used for drawing arrow paths."
+		},
+		{
+			"trigger": "ClearArrowPathShader",
+			"annotation": "()",
+			"contents": "ClearArrowPathShader()",
+			"kind": ["function", "p", "Player"],
+			"details": "Remove all arrow path shaders."
+		},
+		{
+			"trigger": "SetNumArrowGradientPoints",
+			"annotation": "(col, amt)",
+			"contents": "SetNumArrowGradientPoints(${1:col}, ${2:amt})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the number of points <code>amt</code> for an arrow gradient on column <code>col</code>."
+		},
+		{
+			"trigger": "SetArrowGradientPoint",
+			"annotation": "(index, col, offset)",
+			"contents": "SetArrowGradientPoint(${1:index}, ${2:col}, ${3:offset})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the position of an arrow gradient point along column <code>col</code>."
+		},
+		{
+			"trigger": "SetArrowGradientColor",
+			"annotation": "(index, col, r, g, b, a)",
+			"contents": "SetArrowGradientColor(${1:index}, ${2:col}, ${3:r}, ${4:g}, ${5:b}, ${6:a})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the color of arrow gradient point <code>i</code> on column <code>col</code> with normalized RGBA values."
+		},
+		{
+			"trigger": "SetNumStealthGradientPoints",
+			"annotation": "(col, amt)",
+			"contents": "SetNumStealthGradientPoints(${1:col}, ${2:amt})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the number of points <code>amt</code> for a stealth gradient on column <code>col</code>."
+		},
+		{
+			"trigger": "SetStealthGradientPoint",
+			"annotation": "(index, col, offset)",
+			"contents": "SetStealthGradientPoint(${1:index}, ${2:col}, ${3:offset})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the position of a stealth gradient point along column <code>col</code>."
+		},
+		{
+			"trigger": "SetStealthGradientColor",
+			"annotation": "(index, col, r, g, b, a)",
+			"contents": "SetStealthGradientColor(${1:index}, ${2:col}, ${3:r}, ${4:g}, ${5:b}, ${6:a})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the color of stealth gradient point <code>i</code> on column <code>col</code> with normalized RGBA values."
+		},
+		{
+			"trigger": "SetNumPathGradientPoints",
+			"annotation": "(col, amt)",
+			"contents": "SetNumPathGradientPoints(${1:col}, ${2:amt})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the number of points <code>amt</code> for an arrow path gradient on column <code>col</code>."
+		},
+		{
+			"trigger": "SetPathGradientPoint",
+			"annotation": "(index, col, offset)",
+			"contents": "SetPathGradientPoint(${1:index}, ${2:col}, ${3:offset})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the position of an arrow path gradient point along column <code>col</code>."
+		},
+		{
+			"trigger": "SetPathGradientColor",
+			"annotation": "(index, col, r, g, b, a)",
+			"contents": "SetPathGradientColor(${1:index}, ${2:col}, ${3:r}, ${4:g}, ${5:b}, ${6:a})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the color of arrow path gradient point <code>i</code> on column <code>col</code> with normalized RGBA values."
+		},
+		{
+			"trigger": "SetArrowPathBlendMode",
+			"annotation": "(mode)",
+			"contents": "SetArrowPathBlendMode('${1:mode}')",
+			"kind": ["function", "p", "Player"],
+			"details": "Blends the arrow path with blend mode <code>mode</code>."
+		},
+		{
+			"trigger": "SetHiddenRegions",
+			"annotation": "({startBeat, endBeat, col}[, {...}])",
+			"contents": "SetHiddenRegions({${1:startBeat}, ${2:endBeat}, ${3:col}})",
+			"kind": ["function", "p", "Player"],
+			"details": "Hides a region of arrows between <code>startBeat</code> and <code>endBeat</code> on column <code>col</code>."
+		},
+		{
+			"trigger": "ClearHiddenRegions",
+			"annotation": "()",
+			"contents": "ClearHiddenRegions()",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all hidden regions."
+		},
+		{
+			"trigger": "SetNoteTypeMults",
+			"annotation": "({startBeat, mult}[, {...}])",
+			"contents": "SetNoteTypeMults({${1:startBeat}, ${2:mult}})",
+			"kind": ["function", "p", "Player"],
+			"details": "Multiplies all note snap colors by <code>mult</code>."
+		},
+		{
+			"trigger": "ClearNoteTypeMults",
+			"annotation": "()",
+			"contents": "ClearNoteTypeMults()",
+			"kind": ["function", "p", "Player"],
+			"details": "Removes all note snap color multipliers."
+		},
+		{
+			"trigger": "FakeStep",
+			"annotation": "(col)",
+			"contents": "FakeStep(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Makes the receptor on column <code>col</code> play its pressed animation."
+		},
+		{
+			"trigger": "RealStep",
+			"annotation": "(col)",
+			"contents": "RealStep(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Simulates a real step on column <code>col</code>."
+		},
+		{
+			"trigger": "DidTapNote",
+			"annotation": "(col, jud)",
+			"contents": "DidTapNote(${1:col}, ${2:jud})",
+			"kind": ["function", "p", "Player"],
+			"details": "Simulates a step judgment <code>jud</code> on column <code>col</code>."
+		},
+		{
+			"trigger": "DidHoldNote",
+			"annotation": "(col)",
+			"contents": "DidHoldNote(${1:col})",
+			"kind": ["function", "p", "Player"],
+			"details": "Simulates a hold being held to completion on column <code>col</code>."
+		},
+		{
+			"trigger": "GetNumTapsInRange",
+			"annotation": "(startBeat, endBeat)",
+			"contents": "GetNumTapsInRange(${1:startBeat}, ${2:endBeat})",
+			"kind": ["function", "p", "Player"],
+			"details": "Returns all tap notes between <code>startBeat</code> and <code>endBeat</code>."
+		},
+		{
+			"trigger": "SetPlayerController",
+			"annotation": "(controller)",
+			"contents": "SetPlayerController(${1:controller})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets the player's controller. (Human or CPU)"
+		},
+		{
+			"trigger": "SetInputPlayer",
+			"annotation": "(plr)",
+			"contents": "SetInputPlayer(${1:plr})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets which player’s inputs should control the player. 0 = P1, 1 = P2, >1 = AutoPlay"
+		},
+		{
+			"trigger": "SetMineSound",
+			"annotation": "(path)",
+			"contents": "SetMineSound('${1:path}')",
+			"kind": ["function", "p", "Player"],
+			"details": "Sets a custom mine sound."
+		},
+		{
+			"trigger": "SendJudgment",
+			"annotation": "(jud, isEarly[, msOffset, beat])",
+			"contents": "SendJudgment(${1:jud}, ${2:isEarly}, ${3:msOffset}, ${4:beat})",
+			"kind": ["function", "p", "Player"],
+			"details": "Sends a real judgment to the player."
+		},
+		{
+			"trigger": "IsUsingReverse",
+			"annotation": "() → bool",
+			"contents": "IsUsingReverse()",
+			"kind": ["function", "p", "Player"],
+			"details": "Checks if a player is using the mod <code>reverse</code>."
+		},
+		{
+			"trigger": "SetRandomVanishTransform",
+			"annotation": "(mod)",
+			"contents": "SetRandomVanishTransform('${1:mod}')",
+			"kind": ["function", "p", "Player"],
+			"details": "Set the turn mod used with the mod <code>randomize</code>."
+		},
+
+		// Polygon
+
+		{
+			"trigger": "SetNumVertices",
+			"annotation": "(num)",
+			"contents": "SetNumVertices(${1:num})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Sets the number of vertices for the polygon."
+		},
+		{
+			"trigger": "GetNumVertices",
+			"annotation": "() → number",
+			"contents": "GetNumVertices()",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Returns the number of vertices the polygon has."
+		},
+		{
+			"trigger": "SetVertexPosition",
+			"annotation": "(index, x, y, z)",
+			"contents": "SetVertexPosition(${1:index}, ${2:x}, ${3:y}, ${4:z})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Sets the position of a vertex."
+		},
+		{
+			"trigger": "GetVertexPosition",
+			"annotation": "(index) → x, y, z",
+			"contents": "GetVertexPosition(${1:index})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Returns the position a vertex."
+		},
+		{
+			"trigger": "SetVertexNormal",
+			"annotation": "(index, x, y, z)",
+			"contents": "SetVertexNormal(${1:index}, ${2:x}, ${3:y}, ${4:z})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Sets the normal of a vertex."
+		},
+		{
+			"trigger": "GetVertexNormal",
+			"annotation": "(index) → x, y, z",
+			"contents": "GetVertexNormal(${1:index})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Returns the normal of a vertex."
+		},
+		{
+			"trigger": "SetVertexColor",
+			"annotation": "(index, r, g, b, a)",
+			"contents": "SetVertexColor(${1:index}, ${2:r}, ${3:g}, ${4:b}, ${5:a})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Sets the color of a vertex."
+		},
+		{
+			"trigger": "GetVertexColor",
+			"annotation": "(index) → r, g, b, a",
+			"contents": "GetVertexColor(${1:i})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Returns the color of a vertex."
+		},
+		{
+			"trigger": "SetVertexAlpha",
+			"annotation": "(alpha)",
+			"contents": "SetVertexAlpha(${1:alpha})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Sets the alpha component of a vertex's color."
+		},
+		{
+			"trigger": "SetVertexTexCoord",
+			"annotation": "(index, u, v [,w])",
+			"contents": "SetVertexTexCoord(${1:index}, ${2:u}, ${3:v})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Sets the texture coordinate of a vertex."
+		},
+		{
+			"trigger": "GetVertexTexCoord",
+			"annotation": "(index) → u, v[, w]",
+			"contents": "GetVertexTexCoord(${1:index})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Returns the texture coordinate of a vertex."
+		},
+		{
+			"trigger": "SetPolygonMode",
+			"annotation": "(mode)",
+			"contents": "SetPolygonMode(${1:mode})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Sets the polygon's fill mode. 0 = Fill, 1 = Line"
+		},
+		{
+			"trigger": "SetDrawMode",
+			"annotation": "(mode)",
+			"contents": "SetDrawMode('${1:mode}')",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Sets the polygon's draw mode."
+		},
+		{
+			"trigger": "AddDrawSplit",
+			"annotation": "(index)",
+			"contents": "AddDrawSplit(${1:index})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "???"
+		},
+		{
+			"trigger": "SetLineWidth",
+			"annotation": "(width)",
+			"contents": "SetLineWidth(${1:width})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Sets the polygon's line thickness; only takes effect if <code>SetPolygonMode(1)</code>"
+		},
+		{
+			"trigger": "SetTexture",
+			"annotation": "(RageTexture)",
+			"contents": "SetTexture(${1:RageTexture})",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Sets the polygon's texture."
+		},
+		{
+			"trigger": "GetTexture",
+			"annotation": "() → RageTexture",
+			"contents": "GetTexture()",
+			"kind": ["markup", "p", "Polygon"],
+			"details": "Returns the polygon's texture."
+		},
+
+		// RageDisplay
+
+		{
+			"trigger": "GetVPF",
+			"annotation": "() → number",
+			"contents": "GetVPF()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the vertices drawn per frame."
+		},
+		{
+			"trigger": "GetFPS",
+			"annotation": "() → number",
+			"contents": "GetFPS()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the frames drawn per second."
+		},
+		{
+			"trigger": "GetCumFPS",
+			"annotation": "() → number",
+			"contents": "GetCumFPS()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns cumulative frames per second."
+		},
+		{
+			"trigger": "ShaderFuck",
+			"annotation": "(RageShaderProgram)",
+			"contents": "ShaderFuck()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Applys a shader to <b>all on-screen actors</b>."
+		},
+		{
+			"trigger": "ClearShaderFuck",
+			"annotation": "()",
+			"contents": "ClearShaderFuck()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Undoes the previous disaster."
+		},
+		{
+			"trigger": "SetWindow",
+			"annotation": "(x, y, xScale, yScale)",
+			"contents": "SetWindow(${1:x}, ${2:y}, ${3:xScale}, ${4:yScale})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Sets the game window's position and size. (<code>xScale * SCREEN_WIDTH, yScale * SCREEN_HEIGHT</code>)"
+		},
+		{
+			"trigger": "SetWindowX",
+			"annotation": "(x)",
+			"contents": "SetWindowX(${1:x})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Sets the game window's X position in pixels. (Center justified)"
+		},
+		{
+			"trigger": "GetWindowX",
+			"annotation": "() → number",
+			"contents": "GetWindowX()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the game window's X position in pixels. (Center justified)"
+		},
+		{
+			"trigger": "SetWindowY",
+			"annotation": "(y)",
+			"contents": "SetWindowY(${1:y})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Sets the game window's Y position in pixels. (Center justified)"
+		},
+		{
+			"trigger": "GetWindowY",
+			"annotation": "() → number",
+			"contents": "GetWindowY()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the game window's Y position in pixels. (Center justified)"
+		},
+		{
+			"trigger": "SetWindowZoomX",
+			"annotation": "(xScale)",
+			"contents": "SetWindowZoomX(${1:xScale})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Sets the game window's X scale. (<code>xScale * SCREEN_WIDTH</code>)"
+		},
+		{
+			"trigger": "SetWindowZoomY",
+			"annotation": "(yScale)",
+			"contents": "SetWindowZoomY(${1:yScale})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Sets the game window's Y scale. (<code>yScale * SCREEN_HEIGHT</code>)"
+		},
+		{
+			"trigger": "SetWindowZoom",
+			"annotation": "(xScale, yScale)",
+			"contents": "SetWindowZoom(${1:xScale}, ${2:yScale})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Sets the game window's X and Y scale. (<code>xScale * SCREEN_WIDTH, yScale * SCREEN_HEIGHT</code>)"
+		},
+		{
+			"trigger": "GetWindowZoomX",
+			"annotation": "() → number",
+			"contents": "GetWindowZoomX()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the game window's X scale."
+		},
+		{
+			"trigger": "GetWindowZoomY",
+			"annotation": "() → number",
+			"contents": "GetWindowZoomY()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the game window's Y scale."
+		},
+		{
+			"trigger": "SetWindowWidth",
+			"annotation": "(width)",
+			"contents": "SetWindowWidth(${1:width})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Sets the game window's width in pixels."
+		},
+		{
+			"trigger": "GetWindowWidth",
+			"annotation": "() → number",
+			"contents": "GetWindowWidth()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the game window's width in pixels."
+		},
+		{
+			"trigger": "SetWindowHeight",
+			"annotation": "(height)",
+			"contents": "SetWindowHeight(${1:height})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Sets the game window's height in pixels."
+		},
+		{
+			"trigger": "GetWindowHeight",
+			"annotation": "() → number",
+			"contents": "GetWindowHeight()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the game window's height in pixels."
+		},
+		{
+			"trigger": "GetVendor",
+			"annotation": "() → string",
+			"contents": "GetVendor()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the vendor of the graphics driver."
+		},
+		{
+			"trigger": "SetWindowAddX",
+			"annotation": "(x)",
+			"contents": "SetWindowAddX(${1:x})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Adds to the game window's X position in pixels."
+		},
+		{
+			"trigger": "SetWindowAddY",
+			"annotation": "(y)",
+			"contents": "SetWindowAddY(${1:y})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Adds to the game window's Y position in pixels."
+		},
+		{
+			"trigger": "GetDisplayWidth",
+			"annotation": "() → number",
+			"contents": "GetDisplayWidth()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the game window's width."
+		},
+		{
+			"trigger": "GetDisplayHeight",
+			"annotation": "() → number",
+			"contents": "GetDisplayHeight()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the game window's height."
+		},
+		{
+			"trigger": "SetWindowPosition",
+			"annotation": "(x, y)",
+			"contents": "SetWindowPosition(${1:x}, ${2:y})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Sets the game window's position in pixels relative to the center of the display."
+		},
+		{
+			"trigger": "SetWindowPositionAndSize",
+			"annotation": "(x, y, width, height)",
+			"contents": "SetWindowPositionAndSize(${1:x}, ${2:y}, ${3:width}, ${4:height})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Sets the game window's position and size in pixels. Position is relative to the center of the display."
+		},
+		{
+			"trigger": "GetDesktopWidth",
+			"annotation": "() → number",
+			"contents": "GetDesktopWidth()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the main monitor's width."
+		},
+		{
+			"trigger": "GetDesktopHeight",
+			"annotation": "() → number",
+			"contents": "GetDesktopHeight()",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Returns the main monitor's height."
+		},
+		{
+			"trigger": "ChangeCentering",
+			"annotation": "(x, y, addy, addy)",
+			"contents": "ChangeCentering(${1:x}, ${2:y}, ${3:addx}, ${4:addy})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Offset the position and size of the top screen/overlay screens."
+		},
+		{
+			"trigger": "SetBorderless",
+			"annotation": "(bool)",
+			"contents": "SetBorderless(${1:true})",
+			"kind": ["function", "d", "RageDisplay"],
+			"details": "Toggles whether the game window should have a border. (Will reset on <code>SongNotesEnded</code>)"
+		},
+
+		// RageShaderProgram
+
+		{
+			"trigger": "uniform1i",
+			"annotation": "('name', int or bool)",
+			"contents": "uniform1i('${1:name}', ${2:iob})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends an integer/bool uniform to the shader."
+		},
+		{
+			"trigger": "uniform1iv",
+			"annotation": "('name', {{int or bool}[, {...}]})",
+			"contents": "uniform1iv('${1:name}', {${2:iob}})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends an array of int/bool uniforms to the shader."
+		},
+		{
+			"trigger": "uniform1f",
+			"annotation": "('name', float)",
+			"contents": "uniform1f('${1:name}', ${2:float})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends an float uniform to the shader."
+		},
+		{
+			"trigger": "uniform1fv",
+			"annotation": "('name', {{float}[, {...}]})",
+			"contents": "uniform1fv('${1:name}', {${2:float}})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends an array of float uniforms to the shader."
+		},
+		{
+			"trigger": "uniform2f",
+			"annotation": "('name', x, y)",
+			"contents": "uniform2f('${1:name}', ${2:x}, ${3:y})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends a vec2 uniform to the shader."
+		},
+		{
+			"trigger": "uniform2fv",
+			"annotation": "('name', {{x, y}[, {...}]})",
+			"contents": "uniform2fv('${1:name}', {${2:values}})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends an array of vec2 uniforms to the shader."
+		},
+		{
+			"trigger": "uniform3f",
+			"annotation": "('name', x, y, z)",
+			"contents": "uniform3f('${1:name}', ${2:x}, ${3:y}, ${4:z})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends a vec3 uniform to the shader."
+		},
+		{
+			"trigger": "uniform3fv",
+			"annotation": "('name', {x, y, z[, ...]})",
+			"contents": "uniform3fv('${1:name}', {${2:values}})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends an array of vec3 uniforms to the shader."
+		},
+		{
+			"trigger": "uniform4f",
+			"annotation": "('name', value)",
+			"contents": "uniform4f('${1:name}', ${2:value})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends a vec4 uniform to the shader."
+		},
+		{
+			"trigger": "uniform4fv",
+			"annotation": "('name', {x, y, z, w[, ...]})",
+			"contents": "uniform4fv('${1:name}', {${2:values}})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends an array of vec4 uniforms to the shader."
+		},
+		{
+			"trigger": "uniformMatrix2fv",
+			"annotation": "('name', {x1, y1, x2, y2[, ...]})",
+			"contents": "uniformMatrix2fv('${1:name}', {${2:values}})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends an array of 2x2 matrix uniforms to the shader."
+		},
+		{
+			"trigger": "uniformMatrix3fv",
+			"annotation": "('name', {x1, y1, x2, y2, x3, y3[, ...]})",
+			"contents": "uniformMatrix3fv('${1:name}', {${2:values}})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends an array of 3x3 matrix uniforms to the shader."
+		},
+		{
+			"trigger": "uniformMatrix4fv",
+			"annotation": "('name', {x1, y1, x2, y2, x3, y3, x4, y4[, ...]})",
+			"contents": "uniformMatrix4fv('${1:name}', {${2:values}})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends an array of 4x4 matrix uniforms to the shader."
+		},
+		{
+			"trigger": "uniformTexture",
+			"annotation": "('name', RageTexture)",
+			"contents": "uniformTexture('${1:name}', ${2:texture})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Sends a sampler texture to the shader."
+		},
+		{
+			"trigger": "compile",
+			"annotation": "('vertCode', 'fragCode')",
+			"contents": "compile('${1:vertCode}', ${2:fragCode})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Compiles and links a new shader program."
+		},
+		{
+			"trigger": "compileImmediate",
+			"annotation": "()",
+			"contents": "compileImmediate()",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Immediately recompile/relink a shader program. Use with <code>define</code> or <code>clearDefine</code>."
+		},
+		{
+			"trigger": "define",
+			"annotation": "('key'[, string or bool or number])",
+			"contents": "define('${1:key}', ${2:value})",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Injects a <code>#define</code> at the top of shader code. Use <code>compileImmediate</code> to recompile."
+		},
+		{
+			"trigger": "clearDefine",
+			"annotation": "('key')",
+			"contents": "clearDefine('${1:key}')",
+			"kind": ["function", "s", "RageShaderProgram"],
+			"details": "Removes a <code>#define</code> previously added with <code>define</code>. Use <code>compileImmediate</code> to recompile."
+		},
+
+		// ScreenManager
+
+		{
+			"trigger": "SystemMessage",
+			"annotation": "(msg)",
+			"contents": "SystemMessage('${1:msg}')",
+			"kind": ["variable", "s", "ScreenManager"],
+			"details": "Displays an on-screen message."
+		},
+		{
+			"trigger": "SystemMessageNoAnimate",
+			"annotation": "(msg)",
+			"contents": "SystemMessageNoAnimate('${1:msg}')",
+			"kind": ["variable", "s", "ScreenManager"],
+			"details": "Displays an on-screen message, ignoring any animation."
+		},
+		{
+			"trigger": "OverlayMessage",
+			"annotation": "(msg)",
+			"contents": "OverlayMessage('${1:msg}')",
+			"kind": ["variable", "s", "ScreenManager"],
+			"details": "Overlays a message on top of the entire screen."
+		},
+		{
+			"trigger": "HideOverlayMessage",
+			"annotation": "()",
+			"contents": "HideOverlayMessage()",
+			"kind": ["variable", "s", "ScreenManager"],
+			"details": "Hides overlay message."
+		},
+		{
+			"trigger": "SetNewScreen",
+			"annotation": "(screen)",
+			"contents": "SetNewScreen('${1:screen}')",
+			"kind": ["variable", "s", "ScreenManager"],
+			"details": "Sends game to the specified screen."
+		},
+		{
+			"trigger": "GetTopScreen",
+			"annotation": "() → actor",
+			"contents": "GetTopScreen()",
+			"kind": ["variable", "s", "ScreenManager"],
+			"details": "Returns the current screen."
+		},
+		{
+			"trigger": "SetInputMode",
+			"annotation": "(mode)",
+			"contents": "SetInputMode(${1:mode})",
+			"kind": ["variable", "s", "ScreenManager"],
+			"details": "Set which screens receive game input."
+		},
+		{
+			"trigger": "GetOverlayScreens",
+			"annotation": "() → actorframe",
+			"contents": "GetOverlayScreens()",
+			"kind": ["variable", "s", "ScreenManager"],
+			"details": "Returns a list of screens overlaid on top of the main screen."
+		},
+
+		// Sprite
+
+		{
+			"trigger": "Load",
+			"annotation": "(path)",
+			"contents": "Load('${1:path}')",
+			"kind": ["function", "f", "Sprite, Sound"],
+			"details": "Loads a file at <code>path</code>."
+		},
+		{
+			"trigger": "LoadBanner",
+			"annotation": "(path)",
+			"contents": "LoadBanner('${1:path}')",
+			"kind": ["function", "s", "Sprite"],
+			"details": "Like <code>Load</code> but for song banners."
+		},
+		{
+			"trigger": "LoadBackground",
+			"annotation": "(path)",
+			"contents": "LoadBackground('${1:path}')",
+			"kind": ["function", "s", "Sprite"],
+			"details": "Like <code>Load</code> but for song backgrounds."
+		},
+		{
+			"trigger": "getstate",
+			"annotation": "() → number",
+			"contents": "getstate()",
+			"kind": ["function", "s", "Sprite"],
+			"details": "Returns the current frame of an animated texture."
+		},
+		{
+			"trigger": "rate",
+			"annotation": "(rate)",
+			"contents": "rate(${1:rate})",
+			"kind": ["function", "s", "Sprite"],
+			"details": ""
+		},
+		{
+			"trigger": "customtexturerect",
+			"annotation": "(left, top, right, bottom)",
+			"contents": "customtexturerect(${1:left}, ${2:top}, ${3:right}, ${4:bottom})",
+			"kind": ["function", "s", "Sprite"],
+			"details": "ask taro"
+		},
+		{
+			"trigger": "stretchtexcoords",
+			"annotation": "(x, y)",
+			"contents": "stretchtexcoords(${1:x}, ${2:y})",
+			"kind": ["function", "s", "Sprite"],
+			"details": "Sets custom coordinates to the frames of the texture."
+		},
+		{
+			"trigger": "texcoordvelocity",
+			"annotation": "(x, y)",
+			"contents": "texcoordvelocity(${1:x}, ${2:y})",
+			"kind": ["function", "s", "Sprite"],
+			"details": "Scrolls the texture coordinates by <code>x</code> and <code>y</code>."
+		},
+		{
+			"trigger": "GetNumStates",
+			"annotation": "() → number",
+			"contents": "GetNumStates()",
+			"kind": ["function", "s", "Sprite"],
+			"details": "Returns the number of states the sprite has."
+		},
+	]
+}

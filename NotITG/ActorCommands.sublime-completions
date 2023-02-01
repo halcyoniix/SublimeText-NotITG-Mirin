@@ -1,0 +1,649 @@
+{
+	"scope": "(source.xml.nitg - source.lua.nitg - meta.string) & meta.tag",
+	"completions": [
+		{
+			"trigger": "InitCommand",
+			"annotation": "",
+			"contents": "InitCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "OnCommand",
+			"annotation": "",
+			"contents": "OnCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "OffCommand",
+			"annotation": "",
+			"contents": "OffCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "BeginCommand",
+			"annotation": "",
+			"contents": "BeginCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Condition",
+			"annotation": "",
+			"contents": "Condition=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>MenuLeftPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}MenuLeftPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>MenuRightPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}MenuRightPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>MenuUpPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}MenuUpPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>MenuDownPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}MenuDownPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>StartPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}StartPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>SelectPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}SelectPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>BackPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}BackPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>CoinPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}CoinPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>OperatorPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}OperatorPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>LeftPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}LeftPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>RightPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}RightPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>UpPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}UpPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>DownPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}DownPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>UpLeftPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}UpLeftPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>UpRightPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}UpRightPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>ActionLeftPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}ActionLeftPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>ActionRightPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}ActionRightPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>ActionUpPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}ActionUpPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>ActionDownPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}ActionDownPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action1PressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action1PressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action2PressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action2PressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action3PressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action3PressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action4PressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action4PressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action5PressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action5PressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action6PressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action6PressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action7PressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action7PressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action8PressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action8PressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>MenuStartPressMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}MenuStartPressMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>MenuLeftLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}MenuLeftLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>MenuRightLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}MenuRightLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>MenuUpLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}MenuUpLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>MenuDownLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}MenuDownLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>StartLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}StartLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>SelectLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}SelectLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>BackLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}BackLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>CoinLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}CoinLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>OperatorLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}OperatorLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>LeftLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}LeftLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>RightLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}RightLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>UpLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}UpLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>DownLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}DownLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>UpLeftLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}UpLeftLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>UpRightLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}UpRightLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>ActionLeftLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}ActionLeftLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>ActionRightLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}ActionRightLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>ActionUpLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}ActionUpLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>ActionDownLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}ActionDownLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action1LiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action1LiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action2LiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action2LiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action3LiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action3LiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action4LiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action4LiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action5LiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action5LiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action6LiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action6LiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action7LiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action7LiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>Action8LiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}Action8LiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "StepP<pn>MenuStartLiftMessageCommand",
+			"annotation": "",
+			"contents": "StepP${1:pn}MenuStartLiftMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W1MessageCommand",
+			"annotation": "Fantastic",
+			"contents": "Fk_P${1:pn}_W1MessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W2MessageCommand",
+			"annotation": "Excellent",
+			"contents": "Fk_P${1:pn}_W2MessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W3MessageCommand",
+			"annotation": "Great",
+			"contents": "Fk_P${1:pn}_W3MessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W4MessageCommand",
+			"annotation": "Decent",
+			"contents": "Fk_P${1:pn}_W4MessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W5MessageCommand",
+			"annotation": "Way Off",
+			"contents": "Fk_P${1:pn}_W5MessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W6MessageCommand",
+			"annotation": "Miss",
+			"contents": "Fk_P${1:pn}_W6MessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W8MessageCommand",
+			"annotation": "Mine Hit",
+			"contents": "Fk_P${1:pn}_W8MessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_<pn>_OK_HoldMessageCommand",
+			"annotation": "",
+			"contents": "Fk_${1:pn}_OK_HoldMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_<pn>_OK_RollMessageCommand",
+			"annotation": "",
+			"contents": "Fk_${1:pn}_OK_RollMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_<pn>_NG_HoldMessageCommand",
+			"annotation": "",
+			"contents": "Fk_${1:pn}_NG_HoldMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_<pn>_NG_RollMessageCommand",
+			"annotation": "",
+			"contents": "Fk_${1:pn}_NG_RollMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W1_EarlyMessageCommand",
+			"annotation": "Fantastic",
+			"contents": "Fk_P${1:pn}_W1_EarlyMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W2_EarlyMessageCommand",
+			"annotation": "Excellent",
+			"contents": "Fk_P${1:pn}_W2_EarlyMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W3_EarlyMessageCommand",
+			"annotation": "Great",
+			"contents": "Fk_P${1:pn}_W3_EarlyMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W4_EarlyMessageCommand",
+			"annotation": "Decent",
+			"contents": "Fk_P${1:pn}_W4_EarlyMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W5_EarlyMessageCommand",
+			"annotation": "Way Off",
+			"contents": "Fk_P${1:pn}_W5_EarlyMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_OK_EarlyMessageCommand",
+			"annotation": "OK",
+			"contents": "Fk_P${1:pn}_OK_EarlyMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_NG_EarlyMessageCommand",
+			"annotation": "NG",
+			"contents": "Fk_P${1:pn}_NG_EarlyMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W1_LateMessageCommand",
+			"annotation": "Fantastic",
+			"contents": "Fk_P${1:pn}_W1_LateMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W2_LateMessageCommand",
+			"annotation": "Excellent",
+			"contents": "Fk_P${1:pn}_W2_LateMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W3_LateMessageCommand",
+			"annotation": "Great",
+			"contents": "Fk_P${1:pn}_W3_LateMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W4_LateMessageCommand",
+			"annotation": "Decent",
+			"contents": "Fk_P${1:pn}_W4_LateMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_W5_LateMessageCommand",
+			"annotation": "Way Off",
+			"contents": "Fk_P${1:pn}_W5_LateMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_OK_LateMessageCommand",
+			"annotation": "OK",
+			"contents": "Fk_P${1:pn}_OK_LateMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "Fk_P<pn>_NG_LateMessageCommand",
+			"annotation": "NG",
+			"contents": "Fk_P${1:pn}_NG_LateMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "FailP<pn>MessageCommand",
+			"annotation": "",
+			"contents": "FailP${1:pn}MessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "WindowFocusMessageCommand",
+			"annotation": "",
+			"contents": "WindowFocusMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "WindowFocusLostMessageCommand",
+			"annotation": "",
+			"contents": "WindowFocusLostMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "SaltyResetMessageCommand",
+			"annotation": "",
+			"contents": "SaltyResetMessageCommand=\"${1:}\"",
+			"kind": ["function", "c", "ActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "ShowCommand",
+			"annotation": "helper",
+			"contents": "ShowCommand=\"hidden,0;\"",
+			"kind": ["function", "c", "CActorCommand"],
+			"details": ""
+		},
+		{
+			"trigger": "HideCommand",
+			"annotation": "helper",
+			"contents": "HideCommand=\"hidden,1;\"",
+			"kind": ["function", "c", "CActorCommand"],
+			"details": ""
+		},
+	]
+}

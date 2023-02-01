@@ -1,0 +1,89 @@
+{
+	"scope": "source.lua.nitg - meta.property.method-wait.lua - string",
+	"completions": [
+		{
+			"trigger": "setdefault",
+			"annotation": "%, mod[, %, mod...]",
+			"contents": "setdefault {${1:percent}, '${2:mod}'}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/setdefault.html\">More Info</a>"
+		},
+		{
+			"trigger": "set",
+			"annotation": "beat, %, mod[, %, mod...][, plr]",
+			"contents": "set {${1:beat}, ${2:percent}, '${3:mod}'}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/set.html\">More Info</a>"
+		},
+		{
+			"trigger": "ease",
+			"annotation": "beat, len, ease_fn, %, mod[, %, mod...][, plr]",
+			"contents": "ease {${1:beat}, ${2:len}, ${3:ease_fn}, ${4:percent}, '${5:mod}'}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/ease.html\">More Info</a>"
+		},
+		{
+			"trigger": "add",
+			"annotation": "beat, len, ease_fn, %, mod[, %, mod...][, plr]",
+			"contents": "add {${1:beat}, ${2:len}, ${3:ease_fn}, ${4:percent}, '${5:mod}'}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/ease.html#add\">More Info</a>"
+		},
+		{
+			"trigger": "definemod",
+			"annotation": "modname[, modname...], fn(a[, b...][, modname_out...])",
+			"contents": "definemod {'${1:modname}', function(${2:a})\n\tprint(${2:a})\nend}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/definemod.html\">More Info</a>"
+		},
+		{
+			"trigger": "reset",
+			"annotation": "beat[, len, ease_fn, exlcude, plr]",
+			"contents": "reset {${1:beat}, ${2:len}, ${3:ease_fn}}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/reset.html\">More Info</a>"
+		},
+		{
+			"trigger": "aux",
+			"annotation": "modname[, modname...]",
+			"contents": "aux {'${1:modname}'}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/doc-aux.html#aux\">More Info</a>"
+		},
+		{
+			"trigger": "node",
+			"annotation": "modname[, modname...], fn(a)[, modname_out...]",
+			"contents": "node {'${1:modname}', function(${2:p})\n\t\n\treturn ${2:p}\nend, '${3:mod}'}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/doc-aux.html#node\">More Info</a>"
+		},
+		{
+			"trigger": "alias",
+			"annotation": "oldname, newname",
+			"contents": "alias {'${1:oldname}', '${2:newname}'}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/alias.html\">More Info</a>"
+		},
+		{
+			"trigger": "func",
+			"annotation": "beat, fn()[, persist]",
+			"contents": "func {${1:beat}, function()\n\t\nend}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/func.html\">More Info</a>"
+		},
+		{
+			"trigger": "perframe",
+			"annotation": "beat, len, fn(beat, poptions)",
+			"contents": "perframe {${1:beat}, ${2:len}, function(beat, poptions)\n\nend}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/func.html#func_for_function_eases\">More Info</a>"
+		},
+		{
+			"trigger": "func_ease",
+			"annotation": "beat, len, ease_fn[(, %|, b%, e%)], [fn(a), 'actor:method']",
+			"contents": "func_ease {${1:beat}, ${2:len}, ${3:ease_fn}, ${4:percent}, function(a)\n\nend}",
+			"kind": ["namespace", "m", "Mirin"],
+			"details": "<a href=\"https://xerool.github.io/notitg-mirin/docs/func.html#func_for_function_eases\">More Info</a>"
+		},
+	]
+}

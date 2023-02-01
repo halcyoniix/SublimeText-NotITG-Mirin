@@ -1,0 +1,4254 @@
+{
+	"scope": "source.lua.nitg & string",
+	"completions": [
+		{
+			"trigger": "<float>x",
+			"annotation": "OpenITG",
+			"contents": "<float>x",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "addscore",
+			"annotation": "OpenITG",
+			"contents": "addscore",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "alternate",
+			"annotation": "OpenITG",
+			"contents": "alternate",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "approachtype",
+			"annotation": "NotITG",
+			"contents": "approachtype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowcull",
+			"annotation": "NotITG",
+			"contents": "arrowcull",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpath<col>",
+			"annotation": "NotITG",
+			"contents": "arrowpath${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpath",
+			"annotation": "NotITG",
+			"contents": "arrowpath",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathdrawdistance",
+			"annotation": "NotITG",
+			"contents": "arrowpathdrawdistance",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathdrawdistanceback",
+			"annotation": "NotITG",
+			"contents": "arrowpathdrawdistanceback",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathdrawdistancefront",
+			"annotation": "NotITG",
+			"contents": "arrowpathdrawdistancefront",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathdrawsize",
+			"annotation": "NotITG",
+			"contents": "arrowpathdrawsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathdrawsizeback",
+			"annotation": "NotITG",
+			"contents": "arrowpathdrawsizeback",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathdrawsizefront",
+			"annotation": "NotITG",
+			"contents": "arrowpathdrawsizefront",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathgirth",
+			"annotation": "NotITG",
+			"contents": "arrowpathgirth",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathgrain",
+			"annotation": "NotITG",
+			"contents": "arrowpathgrain",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathgranulate",
+			"annotation": "NotITG",
+			"contents": "arrowpathgranulate",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathsize",
+			"annotation": "NotITG",
+			"contents": "arrowpathsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "arrowpathwidth",
+			"annotation": "NotITG",
+			"contents": "arrowpathwidth",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "asymptote",
+			"annotation": "NotITG",
+			"contents": "asymptote",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "asymptoteoffset",
+			"annotation": "NotITG",
+			"contents": "asymptoteoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "asymptotescale",
+			"annotation": "NotITG",
+			"contents": "asymptotescale",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "asymptotesize",
+			"annotation": "NotITG",
+			"contents": "asymptotesize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "attenuate",
+			"annotation": "NotITG",
+			"contents": "attenuate",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "attenuateoffset",
+			"annotation": "NotITG",
+			"contents": "attenuateoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "attenuatex",
+			"annotation": "NotITG",
+			"contents": "attenuatex",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "attenuatexoffset",
+			"annotation": "NotITG",
+			"contents": "attenuatexoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "attenuatez",
+			"annotation": "NotITG",
+			"contents": "attenuatez",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "attenuatezoffset",
+			"annotation": "NotITG",
+			"contents": "attenuatezoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "averagescore",
+			"annotation": "OpenITG",
+			"contents": "averagescore",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beat<col>",
+			"annotation": "NotITG",
+			"contents": "beat${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beat",
+			"annotation": "OpenITG",
+			"contents": "beat",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatcap<col>",
+			"annotation": "NotITG",
+			"contents": "beatcap${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatcap",
+			"annotation": "NotITG",
+			"contents": "beatcap",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatcapy<col>",
+			"annotation": "NotITG",
+			"contents": "beatcapy${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatcapy",
+			"annotation": "NotITG",
+			"contents": "beatcapy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatcapz<col>",
+			"annotation": "NotITG",
+			"contents": "beatcapz${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatcapz",
+			"annotation": "NotITG",
+			"contents": "beatcapz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatmult<col>",
+			"annotation": "NotITG",
+			"contents": "beatmult${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatmult",
+			"annotation": "NotITG",
+			"contents": "beatmult",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatoffset<col>",
+			"annotation": "NotITG",
+			"contents": "beatoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatoffset",
+			"annotation": "NotITG",
+			"contents": "beatoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatperiod<col>",
+			"annotation": "NotITG",
+			"contents": "beatperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatperiod",
+			"annotation": "NotITG",
+			"contents": "beatperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatsize<col>",
+			"annotation": "NotITG",
+			"contents": "beatsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatsize",
+			"annotation": "NotITG",
+			"contents": "beatsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beaty<col>",
+			"annotation": "NotITG",
+			"contents": "beaty${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beaty",
+			"annotation": "NotITG",
+			"contents": "beaty",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatymult<col>",
+			"annotation": "NotITG",
+			"contents": "beatymult${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatymult",
+			"annotation": "NotITG",
+			"contents": "beatymult",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatyoffset<col>",
+			"annotation": "NotITG",
+			"contents": "beatyoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatyoffset",
+			"annotation": "NotITG",
+			"contents": "beatyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatyperiod<col>",
+			"annotation": "NotITG",
+			"contents": "beatyperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatyperiod",
+			"annotation": "NotITG",
+			"contents": "beatyperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatysize<col>",
+			"annotation": "NotITG",
+			"contents": "beatysize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatysize",
+			"annotation": "NotITG",
+			"contents": "beatysize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatz<col>",
+			"annotation": "NotITG",
+			"contents": "beatz${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatz",
+			"annotation": "NotITG",
+			"contents": "beatz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatzmult<col>",
+			"annotation": "NotITG",
+			"contents": "beatzmult${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatzmult",
+			"annotation": "NotITG",
+			"contents": "beatzmult",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatzoffset<col>",
+			"annotation": "NotITG",
+			"contents": "beatzoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatzoffset",
+			"annotation": "NotITG",
+			"contents": "beatzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatzperiod<col>",
+			"annotation": "NotITG",
+			"contents": "beatzperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatzperiod",
+			"annotation": "NotITG",
+			"contents": "beatzperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatzsize<col>",
+			"annotation": "NotITG",
+			"contents": "beatzsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "beatzsize",
+			"annotation": "NotITG",
+			"contents": "beatzsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "big",
+			"annotation": "OpenITG",
+			"contents": "big",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "blind",
+			"annotation": "OpenITG",
+			"contents": "blind",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "blink",
+			"annotation": "OpenITG",
+			"contents": "blink",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "blinkb",
+			"annotation": "NotITG",
+			"contents": "blinkb",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "blinkblue",
+			"annotation": "NotITG",
+			"contents": "blinkblue",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "blinkg",
+			"annotation": "NotITG",
+			"contents": "blinkg",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "blinkgreen",
+			"annotation": "NotITG",
+			"contents": "blinkgreen",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "blinkr",
+			"annotation": "NotITG",
+			"contents": "blinkr",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "blinkred",
+			"annotation": "NotITG",
+			"contents": "blinkred",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bmrize",
+			"annotation": "OpenITG",
+			"contents": "bmrize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "boomerang",
+			"annotation": "OpenITG",
+			"contents": "boomerang",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "boost<col>",
+			"annotation": "NotITG",
+			"contents": "boost${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "boost",
+			"annotation": "OpenITG",
+			"contents": "boost",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bounce",
+			"annotation": "NotITG",
+			"contents": "bounce",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bounceoffset",
+			"annotation": "NotITG",
+			"contents": "bounceoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bounceperiod",
+			"annotation": "NotITG",
+			"contents": "bounceperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bouncez",
+			"annotation": "NotITG",
+			"contents": "bouncez",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bouncezoffset",
+			"annotation": "NotITG",
+			"contents": "bouncezoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bouncezperiod",
+			"annotation": "NotITG",
+			"contents": "bouncezperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "brake<col>",
+			"annotation": "NotITG",
+			"contents": "brake${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "brake",
+			"annotation": "OpenITG",
+			"contents": "brake",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpy<col>",
+			"annotation": "NotITG",
+			"contents": "bumpy${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpy",
+			"annotation": "OpenITG",
+			"contents": "bumpy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyoffset<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyoffset",
+			"annotation": "NotITG",
+			"contents": "bumpyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyperiod<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyperiod",
+			"annotation": "NotITG",
+			"contents": "bumpyperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpysize<col>",
+			"annotation": "NotITG",
+			"contents": "bumpysize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpysize",
+			"annotation": "NotITG",
+			"contents": "bumpysize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyx<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyx${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyx",
+			"annotation": "NotITG",
+			"contents": "bumpyx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyxoffset<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyxoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyxoffset",
+			"annotation": "NotITG",
+			"contents": "bumpyxoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyxperiod<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyxperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyxperiod",
+			"annotation": "NotITG",
+			"contents": "bumpyxperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyxsize<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyxsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyxsize",
+			"annotation": "NotITG",
+			"contents": "bumpyxsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyy<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyy${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyy",
+			"annotation": "NotITG",
+			"contents": "bumpyy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyyoffset<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyyoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyyoffset",
+			"annotation": "NotITG",
+			"contents": "bumpyyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyyperiod<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyyperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyyperiod",
+			"annotation": "NotITG",
+			"contents": "bumpyyperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyysize<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyysize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyysize",
+			"annotation": "NotITG",
+			"contents": "bumpyysize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyz<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyz${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyz",
+			"annotation": "NotITG",
+			"contents": "bumpyz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyzoffset<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyzoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyzoffset",
+			"annotation": "NotITG",
+			"contents": "bumpyzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyzperiod<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyzperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyzperiod",
+			"annotation": "NotITG",
+			"contents": "bumpyzperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyzsize<col>",
+			"annotation": "NotITG",
+			"contents": "bumpyzsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "bumpyzsize",
+			"annotation": "NotITG",
+			"contents": "bumpyzsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "c<float>",
+			"annotation": "OpenITG",
+			"contents": "c<float>",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "centered",
+			"annotation": "OpenITG",
+			"contents": "centered",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "centered2",
+			"annotation": "NotITG",
+			"contents": "centered2",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "clearall",
+			"annotation": "OpenITG",
+			"contents": "clearall",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusion",
+			"annotation": "NotITG",
+			"contents": "confusion",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusionoffset<col>",
+			"annotation": "NotITG",
+			"contents": "confusionoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusionoffset",
+			"annotation": "NotITG",
+			"contents": "confusionoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusionx",
+			"annotation": "NotITG",
+			"contents": "confusionx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusionxoffset<col>",
+			"annotation": "NotITG",
+			"contents": "confusionxoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusionxoffset",
+			"annotation": "NotITG",
+			"contents": "confusionxoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusiony",
+			"annotation": "NotITG",
+			"contents": "confusiony",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusionyoffset<col>",
+			"annotation": "NotITG",
+			"contents": "confusionyoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusionyoffset",
+			"annotation": "NotITG",
+			"contents": "confusionyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusionz",
+			"annotation": "NotITG",
+			"contents": "confusionz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusionzoffset<col>",
+			"annotation": "NotITG",
+			"contents": "confusionzoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "confusionzoffset",
+			"annotation": "NotITG",
+			"contents": "confusionzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "converge",
+			"annotation": "OpenITG",
+			"contents": "converge",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "cosclip",
+			"annotation": "NotITG",
+			"contents": "cosclip",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "cosec",
+			"annotation": "NotITG",
+			"contents": "cosec",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "cover",
+			"annotation": "OpenITG",
+			"contents": "cover",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "cross",
+			"annotation": "OpenITG",
+			"contents": "cross",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "cubicx",
+			"annotation": "NotITG",
+			"contents": "cubicx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "cubicxoffset",
+			"annotation": "NotITG",
+			"contents": "cubicxoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "cubicy",
+			"annotation": "NotITG",
+			"contents": "cubicy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "cubicyoffset",
+			"annotation": "NotITG",
+			"contents": "cubicyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "cubicz",
+			"annotation": "NotITG",
+			"contents": "cubicz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "cubiczoffset",
+			"annotation": "NotITG",
+			"contents": "cubiczoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "customnoteflash<col>",
+			"annotation": "NotITG",
+			"contents": "customnoteflash${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "customnoteflash",
+			"annotation": "NotITG",
+			"contents": "customnoteflash",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "dark<col>",
+			"annotation": "NotITG",
+			"contents": "dark${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "dark",
+			"annotation": "OpenITG",
+			"contents": "dark",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "digital",
+			"annotation": "NotITG",
+			"contents": "digital",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "digitaloffset",
+			"annotation": "NotITG",
+			"contents": "digitaloffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "digitalperiod",
+			"annotation": "NotITG",
+			"contents": "digitalperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "digitalsteps",
+			"annotation": "NotITG",
+			"contents": "digitalsteps",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "digitalz",
+			"annotation": "NotITG",
+			"contents": "digitalz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "digitalzoffset",
+			"annotation": "NotITG",
+			"contents": "digitalzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "digitalzperiod",
+			"annotation": "NotITG",
+			"contents": "digitalzperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "digitalzsteps",
+			"annotation": "NotITG",
+			"contents": "digitalzsteps",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "disablemines",
+			"annotation": "NotITG",
+			"contents": "disablemines",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "distant",
+			"annotation": "OpenITG",
+			"contents": "distant",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "dizzy<col>",
+			"annotation": "NotITG",
+			"contents": "dizzy${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "dizzy",
+			"annotation": "OpenITG",
+			"contents": "dizzy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "dizzyholds",
+			"annotation": "NotITG",
+			"contents": "dizzyholds",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drawdistance",
+			"annotation": "NotITG",
+			"contents": "drawdistance",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drawdistanceback",
+			"annotation": "NotITG",
+			"contents": "drawdistanceback",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drawdistancefront",
+			"annotation": "NotITG",
+			"contents": "drawdistancefront",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drawsize",
+			"annotation": "NotITG",
+			"contents": "drawsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drawsizeback",
+			"annotation": "NotITG",
+			"contents": "drawsizeback",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drawsizefront",
+			"annotation": "NotITG",
+			"contents": "drawsizefront",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunk<col>",
+			"annotation": "NotITG",
+			"contents": "drunk${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunk",
+			"annotation": "OpenITG",
+			"contents": "drunk",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkoffset<col>",
+			"annotation": "NotITG",
+			"contents": "drunkoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkoffset",
+			"annotation": "NotITG",
+			"contents": "drunkoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkperiod<col>",
+			"annotation": "NotITG",
+			"contents": "drunkperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkperiod",
+			"annotation": "NotITG",
+			"contents": "drunkperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunksize<col>",
+			"annotation": "NotITG",
+			"contents": "drunksize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunksize",
+			"annotation": "NotITG",
+			"contents": "drunksize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkspacing<col>",
+			"annotation": "NotITG",
+			"contents": "drunkspacing${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkspacing",
+			"annotation": "NotITG",
+			"contents": "drunkspacing",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkspeed<col>",
+			"annotation": "NotITG",
+			"contents": "drunkspeed${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkspeed",
+			"annotation": "NotITG",
+			"contents": "drunkspeed",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunky<col>",
+			"annotation": "NotITG",
+			"contents": "drunky${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunky",
+			"annotation": "NotITG",
+			"contents": "drunky",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkyoffset<col>",
+			"annotation": "NotITG",
+			"contents": "drunkyoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkyoffset",
+			"annotation": "NotITG",
+			"contents": "drunkyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkyperiod<col>",
+			"annotation": "NotITG",
+			"contents": "drunkyperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkyperiod",
+			"annotation": "NotITG",
+			"contents": "drunkyperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkysize<col>",
+			"annotation": "NotITG",
+			"contents": "drunkysize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkysize",
+			"annotation": "NotITG",
+			"contents": "drunkysize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkyspacing<col>",
+			"annotation": "NotITG",
+			"contents": "drunkyspacing${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkyspacing",
+			"annotation": "NotITG",
+			"contents": "drunkyspacing",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkyspeed<col>",
+			"annotation": "NotITG",
+			"contents": "drunkyspeed${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkyspeed",
+			"annotation": "NotITG",
+			"contents": "drunkyspeed",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkz<col>",
+			"annotation": "NotITG",
+			"contents": "drunkz${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkz",
+			"annotation": "NotITG",
+			"contents": "drunkz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkzoffset<col>",
+			"annotation": "NotITG",
+			"contents": "drunkzoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkzoffset",
+			"annotation": "NotITG",
+			"contents": "drunkzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkzperiod<col>",
+			"annotation": "NotITG",
+			"contents": "drunkzperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkzperiod",
+			"annotation": "NotITG",
+			"contents": "drunkzperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkzsize<col>",
+			"annotation": "NotITG",
+			"contents": "drunkzsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkzsize",
+			"annotation": "NotITG",
+			"contents": "drunkzsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkzspacing<col>",
+			"annotation": "NotITG",
+			"contents": "drunkzspacing${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkzspacing",
+			"annotation": "NotITG",
+			"contents": "drunkzspacing",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkzspeed<col>",
+			"annotation": "NotITG",
+			"contents": "drunkzspeed${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "drunkzspeed",
+			"annotation": "NotITG",
+			"contents": "drunkzspeed",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "echo",
+			"annotation": "OpenITG",
+			"contents": "echo",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "expand",
+			"annotation": "OpenITG",
+			"contents": "expand",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "expandperiod",
+			"annotation": "NotITG",
+			"contents": "expandperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "expandsize",
+			"annotation": "NotITG",
+			"contents": "expandsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "flip",
+			"annotation": "OpenITG",
+			"contents": "flip",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "floored",
+			"annotation": "OpenITG",
+			"contents": "floored",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "gayholds<col>",
+			"annotation": "NotITG",
+			"contents": "gayholds${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "gayholds",
+			"annotation": "NotITG",
+			"contents": "gayholds",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "glitchytan",
+			"annotation": "NotITG",
+			"contents": "glitchytan",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "globalmodtimer",
+			"annotation": "NotITG",
+			"contents": "globalmodtimer",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "globalmodtimermult",
+			"annotation": "NotITG",
+			"contents": "globalmodtimermult",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "globalmodtimeroffset",
+			"annotation": "NotITG",
+			"contents": "globalmodtimeroffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "grain",
+			"annotation": "NotITG",
+			"contents": "grain",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "granulate",
+			"annotation": "NotITG",
+			"contents": "granulate",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "halgun",
+			"annotation": "NotITG",
+			"contents": "halgun",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hallway",
+			"annotation": "OpenITG",
+			"contents": "hallway",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidden",
+			"annotation": "OpenITG",
+			"contents": "hidden",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddenb",
+			"annotation": "NotITG",
+			"contents": "hiddenb",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddenblue",
+			"annotation": "NotITG",
+			"contents": "hiddenblue",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddenblueoffset",
+			"annotation": "NotITG",
+			"contents": "hiddenblueoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddenbo",
+			"annotation": "NotITG",
+			"contents": "hiddenbo",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddeng",
+			"annotation": "NotITG",
+			"contents": "hiddeng",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddengo",
+			"annotation": "NotITG",
+			"contents": "hiddengo",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddengreen",
+			"annotation": "NotITG",
+			"contents": "hiddengreen",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddengreenoffset",
+			"annotation": "NotITG",
+			"contents": "hiddengreenoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddenoffset",
+			"annotation": "OpenITG",
+			"contents": "hiddenoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddenr",
+			"annotation": "NotITG",
+			"contents": "hiddenr",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddenred",
+			"annotation": "NotITG",
+			"contents": "hiddenred",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddenredoffset",
+			"annotation": "NotITG",
+			"contents": "hiddenredoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hiddenro",
+			"annotation": "NotITG",
+			"contents": "hiddenro",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hide",
+			"annotation": "NotITG",
+			"contents": "hide",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hideholds<col>",
+			"annotation": "NotITG",
+			"contents": "hideholds${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hideholds",
+			"annotation": "NotITG",
+			"contents": "hideholds",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidemines<col>",
+			"annotation": "NotITG",
+			"contents": "hidemines${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidemines",
+			"annotation": "NotITG",
+			"contents": "hidemines",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidenoteflash<col>",
+			"annotation": "NotITG",
+			"contents": "hidenoteflash${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidenoteflash",
+			"annotation": "NotITG",
+			"contents": "hidenoteflash",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidenoteflashes<col>",
+			"annotation": "NotITG",
+			"contents": "hidenoteflashes${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidenoteflashes",
+			"annotation": "NotITG",
+			"contents": "hidenoteflashes",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidenotepress<col>",
+			"annotation": "NotITG",
+			"contents": "hidenotepress${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidenotepress",
+			"annotation": "NotITG",
+			"contents": "hidenotepress",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidenotepresses<col>",
+			"annotation": "NotITG",
+			"contents": "hidenotepresses${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "hidenotepresses",
+			"annotation": "NotITG",
+			"contents": "hidenotepresses",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "holdcull",
+			"annotation": "NotITG",
+			"contents": "holdcull",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "holdgirth<col>",
+			"annotation": "NotITG",
+			"contents": "holdgirth${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "holdgirth",
+			"annotation": "NotITG",
+			"contents": "holdgirth",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "holdstealth<col>",
+			"annotation": "NotITG",
+			"contents": "holdstealth${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "holdstealth",
+			"annotation": "NotITG",
+			"contents": "holdstealth",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "holdstorolls",
+			"annotation": "OpenITG",
+			"contents": "holdstorolls",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "holdtiny<col>",
+			"annotation": "NotITG",
+			"contents": "holdtiny${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "holdtiny",
+			"annotation": "NotITG",
+			"contents": "holdtiny",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "holdtype",
+			"annotation": "NotITG",
+			"contents": "holdtype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "incoming",
+			"annotation": "OpenITG",
+			"contents": "incoming",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "invert",
+			"annotation": "OpenITG",
+			"contents": "invert",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "judgescale",
+			"annotation": "NotITG",
+			"contents": "judgescale",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "land<col>",
+			"annotation": "NotITG",
+			"contents": "land${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "land",
+			"annotation": "OpenITG",
+			"contents": "land",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "left",
+			"annotation": "OpenITG",
+			"contents": "left",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "little",
+			"annotation": "OpenITG",
+			"contents": "little",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "longboy",
+			"annotation": "NotITG",
+			"contents": "longboy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "longboys",
+			"annotation": "NotITG",
+			"contents": "longboys",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "longholds",
+			"annotation": "NotITG",
+			"contents": "longholds",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "manualnoteflash<col>",
+			"annotation": "NotITG",
+			"contents": "manualnoteflash${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "manualnoteflash",
+			"annotation": "NotITG",
+			"contents": "manualnoteflash",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "mines",
+			"annotation": "OpenITG",
+			"contents": "mines",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "minestealth<col>",
+			"annotation": "NotITG",
+			"contents": "minestealth${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "minestealth",
+			"annotation": "NotITG",
+			"contents": "minestealth",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "mini",
+			"annotation": "OpenITG",
+			"contents": "mini",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "mirror",
+			"annotation": "OpenITG",
+			"contents": "mirror",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "modtimer",
+			"annotation": "NotITG",
+			"contents": "modtimer",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "modtimermult",
+			"annotation": "NotITG",
+			"contents": "modtimermult",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "modtimeroffset",
+			"annotation": "NotITG",
+			"contents": "modtimeroffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "movex<col>",
+			"annotation": "NotITG",
+			"contents": "movex${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "movex",
+			"annotation": "NotITG",
+			"contents": "movex",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "movey<col>",
+			"annotation": "NotITG",
+			"contents": "movey${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "movey",
+			"annotation": "NotITG",
+			"contents": "movey",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "movez<col>",
+			"annotation": "NotITG",
+			"contents": "movez${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "movez",
+			"annotation": "NotITG",
+			"contents": "movez",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "nofreeze",
+			"annotation": "OpenITG",
+			"contents": "nofreeze",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "nohands",
+			"annotation": "OpenITG",
+			"contents": "nohands",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "noholdjudge",
+			"annotation": "NotITG",
+			"contents": "noholdjudge",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "noholds",
+			"annotation": "OpenITG",
+			"contents": "noholds",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "nojumps",
+			"annotation": "OpenITG",
+			"contents": "nojumps",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "nomines",
+			"annotation": "OpenITG",
+			"contents": "nomines",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "noquads",
+			"annotation": "OpenITG",
+			"contents": "noquads",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "noreorient",
+			"annotation": "NotITG",
+			"contents": "noreorient",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "norolls",
+			"annotation": "OpenITG",
+			"contents": "norolls",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "nostretch",
+			"annotation": "OpenITG",
+			"contents": "nostretch",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "noteskew<col>",
+			"annotation": "NotITG",
+			"contents": "noteskew${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "noteskew",
+			"annotation": "NotITG",
+			"contents": "noteskew",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "noteskewtype",
+			"annotation": "NotITG",
+			"contents": "noteskewtype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "noteskewx<col>",
+			"annotation": "NotITG",
+			"contents": "noteskewx${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "noteskewx",
+			"annotation": "NotITG",
+			"contents": "noteskewx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "noteskewy<col>",
+			"annotation": "NotITG",
+			"contents": "noteskewy${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "noteskewy",
+			"annotation": "NotITG",
+			"contents": "noteskewy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "noteskin",
+			"annotation": "OpenITG",
+			"contents": "noteskin",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Consider using .sm #ATTACKS for mid-file noteskin changes."
+		},
+		{
+			"trigger": "orient",
+			"annotation": "NotITG",
+			"contents": "orient",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "orientoffset",
+			"annotation": "NotITG",
+			"contents": "orientoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "overhead",
+			"annotation": "OpenITG",
+			"contents": "overhead",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "parabolax",
+			"annotation": "NotITG",
+			"contents": "parabolax",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "parabolaxoffset",
+			"annotation": "NotITG",
+			"contents": "parabolaxoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "parabolay",
+			"annotation": "NotITG",
+			"contents": "parabolay",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "parabolayoffset",
+			"annotation": "NotITG",
+			"contents": "parabolayoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "parabolaz",
+			"annotation": "NotITG",
+			"contents": "parabolaz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "parabolazoffset",
+			"annotation": "NotITG",
+			"contents": "parabolazoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "passmark",
+			"annotation": "OpenITG",
+			"contents": "passmark",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "plannedomspeed<col>",
+			"annotation": "NotITG",
+			"contents": "plannedomspeed${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "plannedomspeed",
+			"annotation": "NotITG",
+			"contents": "plannedomspeed",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "planted",
+			"annotation": "OpenITG",
+			"contents": "planted",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "pulse",
+			"annotation": "NotITG",
+			"contents": "pulse",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "pulseinner",
+			"annotation": "NotITG",
+			"contents": "pulseinner",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "pulseoffset",
+			"annotation": "NotITG",
+			"contents": "pulseoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "pulseouter",
+			"annotation": "NotITG",
+			"contents": "pulseouter",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "pulseperiod",
+			"annotation": "NotITG",
+			"contents": "pulseperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "quick",
+			"annotation": "OpenITG",
+			"contents": "quick",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "random",
+			"annotation": "OpenITG",
+			"contents": "random",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "randomize",
+			"annotation": "NotITG",
+			"contents": "randomize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "randomizeoffset",
+			"annotation": "NotITG",
+			"contents": "randomizeoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "randomspeed",
+			"annotation": "OpenITG",
+			"contents": "randomspeed",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "randomvanish",
+			"annotation": "OpenITG",
+			"contents": "randomvanish",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "randomvanishoffset",
+			"annotation": "OpenITG",
+			"contents": "randomvanishoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "receptorzbuffer<col>",
+			"annotation": "NotITG",
+			"contents": "receptorzbuffer${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "receptorzbuffer",
+			"annotation": "NotITG",
+			"contents": "receptorzbuffer",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "reverse<col>",
+			"annotation": "NotITG",
+			"contents": "reverse${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "reverse",
+			"annotation": "OpenITG",
+			"contents": "reverse",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "reversetype",
+			"annotation": "NotITG",
+			"contents": "reversetype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "right",
+			"annotation": "OpenITG",
+			"contents": "right",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "roll<col>",
+			"annotation": "NotITG",
+			"contents": "roll${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "roll",
+			"annotation": "OpenITG",
+			"contents": "roll",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "rotationx",
+			"annotation": "NotITG",
+			"contents": "rotationx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "rotationy",
+			"annotation": "NotITG",
+			"contents": "rotationy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "rotationz",
+			"annotation": "NotITG",
+			"contents": "rotationz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtooth<col>",
+			"annotation": "NotITG",
+			"contents": "sawtooth${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtooth",
+			"annotation": "NotITG",
+			"contents": "sawtooth",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothoffset<col>",
+			"annotation": "NotITG",
+			"contents": "sawtoothoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothoffset",
+			"annotation": "NotITG",
+			"contents": "sawtoothoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothperiod<col>",
+			"annotation": "NotITG",
+			"contents": "sawtoothperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothperiod",
+			"annotation": "NotITG",
+			"contents": "sawtoothperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothsize<col>",
+			"annotation": "NotITG",
+			"contents": "sawtoothsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothsize",
+			"annotation": "NotITG",
+			"contents": "sawtoothsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothz<col>",
+			"annotation": "NotITG",
+			"contents": "sawtoothz${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothz",
+			"annotation": "NotITG",
+			"contents": "sawtoothz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothzoffset<col>",
+			"annotation": "NotITG",
+			"contents": "sawtoothzoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothzoffset",
+			"annotation": "NotITG",
+			"contents": "sawtoothzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothzperiod<col>",
+			"annotation": "NotITG",
+			"contents": "sawtoothzperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothzperiod",
+			"annotation": "NotITG",
+			"contents": "sawtoothzperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothzsize<col>",
+			"annotation": "NotITG",
+			"contents": "sawtoothzsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sawtoothzsize",
+			"annotation": "NotITG",
+			"contents": "sawtoothzsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "screenfilter",
+			"annotation": "NotITG",
+			"contents": "screenfilter",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "scrollspeedmult<col>",
+			"annotation": "NotITG",
+			"contents": "scrollspeedmult${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "scrollspeedmult",
+			"annotation": "NotITG",
+			"contents": "scrollspeedmult",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "shrinklinear",
+			"annotation": "NotITG",
+			"contents": "shrinklinear",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "shrinklinearx",
+			"annotation": "NotITG",
+			"contents": "shrinklinearx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "shrinklineary",
+			"annotation": "NotITG",
+			"contents": "shrinklineary",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "shrinklinearz",
+			"annotation": "NotITG",
+			"contents": "shrinklinearz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "shrinkmult",
+			"annotation": "NotITG",
+			"contents": "shrinkmult",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "shrinkmultx",
+			"annotation": "NotITG",
+			"contents": "shrinkmultx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "shrinkmulty",
+			"annotation": "NotITG",
+			"contents": "shrinkmulty",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "shrinkmultz",
+			"annotation": "NotITG",
+			"contents": "shrinkmultz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "shuffle",
+			"annotation": "OpenITG",
+			"contents": "shuffle",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "sinclip",
+			"annotation": "NotITG",
+			"contents": "sinclip",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "skewtype",
+			"annotation": "NotITG",
+			"contents": "skewtype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "skewx",
+			"annotation": "NotITG",
+			"contents": "skewx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "skewy",
+			"annotation": "NotITG",
+			"contents": "skewy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "skippy",
+			"annotation": "OpenITG",
+			"contents": "skippy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "smartblender",
+			"annotation": "NotITG",
+			"contents": "smartblender",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "space",
+			"annotation": "OpenITG",
+			"contents": "space",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "spiralholds",
+			"annotation": "NotITG",
+			"contents": "spiralholds",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "spiralx",
+			"annotation": "NotITG",
+			"contents": "spiralx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "spiralxoffset",
+			"annotation": "NotITG",
+			"contents": "spiralxoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "spiralxperiod",
+			"annotation": "NotITG",
+			"contents": "spiralxperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "spiraly",
+			"annotation": "NotITG",
+			"contents": "spiraly",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "spiralyoffset",
+			"annotation": "NotITG",
+			"contents": "spiralyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "spiralyperiod",
+			"annotation": "NotITG",
+			"contents": "spiralyperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "spiralz",
+			"annotation": "NotITG",
+			"contents": "spiralz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "spiralzoffset",
+			"annotation": "NotITG",
+			"contents": "spiralzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "spiralzperiod",
+			"annotation": "NotITG",
+			"contents": "spiralzperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splinerotxtype",
+			"annotation": "NotITG",
+			"contents": "splinerotxtype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splinerotytype",
+			"annotation": "NotITG",
+			"contents": "splinerotytype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splinerotztype",
+			"annotation": "NotITG",
+			"contents": "splinerotztype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splinesizetype",
+			"annotation": "NotITG",
+			"contents": "splinesizetype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splineskewtype",
+			"annotation": "NotITG",
+			"contents": "splineskewtype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splinestealthtype",
+			"annotation": "NotITG",
+			"contents": "splinestealthtype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splinetinytype",
+			"annotation": "NotITG",
+			"contents": "splinetinytype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splinextype",
+			"annotation": "NotITG",
+			"contents": "splinextype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splineytype",
+			"annotation": "NotITG",
+			"contents": "splineytype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splinezoomtype",
+			"annotation": "NotITG",
+			"contents": "splinezoomtype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "splineztype",
+			"annotation": "NotITG",
+			"contents": "splineztype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "split",
+			"annotation": "OpenITG",
+			"contents": "split",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "square",
+			"annotation": "NotITG",
+			"contents": "square",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "squareoffset",
+			"annotation": "NotITG",
+			"contents": "squareoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "squareperiod",
+			"annotation": "NotITG",
+			"contents": "squareperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "squarez",
+			"annotation": "NotITG",
+			"contents": "squarez",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "squarezoffset",
+			"annotation": "NotITG",
+			"contents": "squarezoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "squarezperiod",
+			"annotation": "NotITG",
+			"contents": "squarezperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealth<col>",
+			"annotation": "NotITG",
+			"contents": "stealth${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealth",
+			"annotation": "OpenITG",
+			"contents": "stealth",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthb",
+			"annotation": "NotITG",
+			"contents": "stealthb",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthblue",
+			"annotation": "NotITG",
+			"contents": "stealthblue",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthg",
+			"annotation": "NotITG",
+			"contents": "stealthg",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthgb",
+			"annotation": "NotITG",
+			"contents": "stealthgb",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthgg",
+			"annotation": "NotITG",
+			"contents": "stealthgg",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthglowblue",
+			"annotation": "NotITG",
+			"contents": "stealthglowblue",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthglowgreen",
+			"annotation": "NotITG",
+			"contents": "stealthglowgreen",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthglowred",
+			"annotation": "NotITG",
+			"contents": "stealthglowred",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthgr",
+			"annotation": "NotITG",
+			"contents": "stealthgr",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthgreen",
+			"annotation": "NotITG",
+			"contents": "stealthgreen",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthpastreceptors",
+			"annotation": "NotITG",
+			"contents": "stealthpastreceptors",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthr",
+			"annotation": "NotITG",
+			"contents": "stealthr",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthred",
+			"annotation": "NotITG",
+			"contents": "stealthred",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stealthtype",
+			"annotation": "NotITG",
+			"contents": "stealthtype",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "stomp",
+			"annotation": "OpenITG",
+			"contents": "stomp",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "straightholds<col>",
+			"annotation": "NotITG",
+			"contents": "straightholds${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "straightholds",
+			"annotation": "NotITG",
+			"contents": "straightholds",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "subtractscore",
+			"annotation": "OpenITG",
+			"contents": "subtractscore",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "sudden",
+			"annotation": "OpenITG",
+			"contents": "sudden",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddenb",
+			"annotation": "NotITG",
+			"contents": "suddenb",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddenblue",
+			"annotation": "NotITG",
+			"contents": "suddenblue",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddenblueoffset",
+			"annotation": "NotITG",
+			"contents": "suddenblueoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddenbo",
+			"annotation": "NotITG",
+			"contents": "suddenbo",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddeng",
+			"annotation": "NotITG",
+			"contents": "suddeng",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddengo",
+			"annotation": "NotITG",
+			"contents": "suddengo",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddengreen",
+			"annotation": "NotITG",
+			"contents": "suddengreen",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddengreenoffset",
+			"annotation": "NotITG",
+			"contents": "suddengreenoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddenoffset",
+			"annotation": "OpenITG",
+			"contents": "suddenoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddenr",
+			"annotation": "NotITG",
+			"contents": "suddenr",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddenred",
+			"annotation": "NotITG",
+			"contents": "suddenred",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddenredoffset",
+			"annotation": "NotITG",
+			"contents": "suddenredoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "suddenro",
+			"annotation": "NotITG",
+			"contents": "suddenro",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpy<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpy${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpy",
+			"annotation": "NotITG",
+			"contents": "tanbumpy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyoffset<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyoffset",
+			"annotation": "NotITG",
+			"contents": "tanbumpyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyperiod<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyperiod",
+			"annotation": "NotITG",
+			"contents": "tanbumpyperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpysize<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpysize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpysize",
+			"annotation": "NotITG",
+			"contents": "tanbumpysize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyx<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyx${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyx",
+			"annotation": "NotITG",
+			"contents": "tanbumpyx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyxoffset<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyxoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyxoffset",
+			"annotation": "NotITG",
+			"contents": "tanbumpyxoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyxperiod<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyxperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyxperiod",
+			"annotation": "NotITG",
+			"contents": "tanbumpyxperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyxsize<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyxsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyxsize",
+			"annotation": "NotITG",
+			"contents": "tanbumpyxsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyy<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyy${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyy",
+			"annotation": "NotITG",
+			"contents": "tanbumpyy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyyoffset<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyyoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyyoffset",
+			"annotation": "NotITG",
+			"contents": "tanbumpyyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyyperiod<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyyperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyyperiod",
+			"annotation": "NotITG",
+			"contents": "tanbumpyyperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyysize<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyysize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyysize",
+			"annotation": "NotITG",
+			"contents": "tanbumpyysize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyz<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyz${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyz",
+			"annotation": "NotITG",
+			"contents": "tanbumpyz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyzoffset<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyzoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyzoffset",
+			"annotation": "NotITG",
+			"contents": "tanbumpyzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyzperiod<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyzperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyzperiod",
+			"annotation": "NotITG",
+			"contents": "tanbumpyzperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyzsize<col>",
+			"annotation": "NotITG",
+			"contents": "tanbumpyzsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanbumpyzsize",
+			"annotation": "NotITG",
+			"contents": "tanbumpyzsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanclip",
+			"annotation": "NotITG",
+			"contents": "tanclip",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandigital",
+			"annotation": "NotITG",
+			"contents": "tandigital",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandigitaloffset",
+			"annotation": "NotITG",
+			"contents": "tandigitaloffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandigitalperiod",
+			"annotation": "NotITG",
+			"contents": "tandigitalperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandigitalsteps",
+			"annotation": "NotITG",
+			"contents": "tandigitalsteps",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandigitalz",
+			"annotation": "NotITG",
+			"contents": "tandigitalz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandigitalzoffset",
+			"annotation": "NotITG",
+			"contents": "tandigitalzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandigitalzperiod",
+			"annotation": "NotITG",
+			"contents": "tandigitalzperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandigitalzsteps",
+			"annotation": "NotITG",
+			"contents": "tandigitalzsteps",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunk<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunk${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunk",
+			"annotation": "NotITG",
+			"contents": "tandrunk",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkoffset<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkoffset",
+			"annotation": "NotITG",
+			"contents": "tandrunkoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkperiod<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkperiod",
+			"annotation": "NotITG",
+			"contents": "tandrunkperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunksize<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunksize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunksize",
+			"annotation": "NotITG",
+			"contents": "tandrunksize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkspacing<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkspacing${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkspacing",
+			"annotation": "NotITG",
+			"contents": "tandrunkspacing",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkspeed<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkspeed${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkspeed",
+			"annotation": "NotITG",
+			"contents": "tandrunkspeed",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunky<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunky${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunky",
+			"annotation": "NotITG",
+			"contents": "tandrunky",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkyoffset<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkyoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkyoffset",
+			"annotation": "NotITG",
+			"contents": "tandrunkyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkyperiod<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkyperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkyperiod",
+			"annotation": "NotITG",
+			"contents": "tandrunkyperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkysize<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkysize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkysize",
+			"annotation": "NotITG",
+			"contents": "tandrunkysize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkyspacing<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkyspacing${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkyspacing",
+			"annotation": "NotITG",
+			"contents": "tandrunkyspacing",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkyspeed<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkyspeed${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkyspeed",
+			"annotation": "NotITG",
+			"contents": "tandrunkyspeed",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkz<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkz${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkz",
+			"annotation": "NotITG",
+			"contents": "tandrunkz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkzoffset<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkzoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkzoffset",
+			"annotation": "NotITG",
+			"contents": "tandrunkzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkzperiod<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkzperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkzperiod",
+			"annotation": "NotITG",
+			"contents": "tandrunkzperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkzsize<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkzsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkzsize",
+			"annotation": "NotITG",
+			"contents": "tandrunkzsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkzspacing<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkzspacing${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkzspacing",
+			"annotation": "NotITG",
+			"contents": "tandrunkzspacing",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkzspeed<col>",
+			"annotation": "NotITG",
+			"contents": "tandrunkzspeed${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tandrunkzspeed",
+			"annotation": "NotITG",
+			"contents": "tandrunkzspeed",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanexpand",
+			"annotation": "NotITG",
+			"contents": "tanexpand",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanexpandperiod",
+			"annotation": "NotITG",
+			"contents": "tanexpandperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanexpandsize",
+			"annotation": "NotITG",
+			"contents": "tanexpandsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanpulse",
+			"annotation": "NotITG",
+			"contents": "tanpulse",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanpulseinner",
+			"annotation": "NotITG",
+			"contents": "tanpulseinner",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanpulseoffset",
+			"annotation": "NotITG",
+			"contents": "tanpulseoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanpulseouter",
+			"annotation": "NotITG",
+			"contents": "tanpulseouter",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tanpulseperiod",
+			"annotation": "NotITG",
+			"contents": "tanpulseperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantipsy<col>",
+			"annotation": "NotITG",
+			"contents": "tantipsy${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantipsy",
+			"annotation": "NotITG",
+			"contents": "tantipsy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantipsyoffset<col>",
+			"annotation": "NotITG",
+			"contents": "tantipsyoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantipsyoffset",
+			"annotation": "NotITG",
+			"contents": "tantipsyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantipsyspacing<col>",
+			"annotation": "NotITG",
+			"contents": "tantipsyspacing${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantipsyspacing",
+			"annotation": "NotITG",
+			"contents": "tantipsyspacing",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantipsyspeed<col>",
+			"annotation": "NotITG",
+			"contents": "tantipsyspeed${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantipsyspeed",
+			"annotation": "NotITG",
+			"contents": "tantipsyspeed",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantornado",
+			"annotation": "NotITG",
+			"contents": "tantornado",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantornadooffset",
+			"annotation": "NotITG",
+			"contents": "tantornadooffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantornadoperiod",
+			"annotation": "NotITG",
+			"contents": "tantornadoperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantornadoz",
+			"annotation": "NotITG",
+			"contents": "tantornadoz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantornadozoffset",
+			"annotation": "NotITG",
+			"contents": "tantornadozoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tantornadozperiod",
+			"annotation": "NotITG",
+			"contents": "tantornadozperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "texturefilteroff<col>",
+			"annotation": "NotITG",
+			"contents": "texturefilteroff${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "texturefilteroff",
+			"annotation": "NotITG",
+			"contents": "texturefilteroff",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "timer",
+			"annotation": "NotITG",
+			"contents": "timer",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "timermult",
+			"annotation": "NotITG",
+			"contents": "timermult",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "timeroffset",
+			"annotation": "NotITG",
+			"contents": "timeroffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "timing",
+			"annotation": "NotITG",
+			"contents": "timing",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tiny<col>",
+			"annotation": "NotITG",
+			"contents": "tiny${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tiny",
+			"annotation": "OpenITG",
+			"contents": "tiny",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tinyx<col>",
+			"annotation": "NotITG",
+			"contents": "tinyx${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tinyx",
+			"annotation": "NotITG",
+			"contents": "tinyx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tinyy<col>",
+			"annotation": "NotITG",
+			"contents": "tinyy${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tinyy",
+			"annotation": "NotITG",
+			"contents": "tinyy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tinyz<col>",
+			"annotation": "NotITG",
+			"contents": "tinyz${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tinyz",
+			"annotation": "NotITG",
+			"contents": "tinyz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tipsy<col>",
+			"annotation": "NotITG",
+			"contents": "tipsy${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tipsy",
+			"annotation": "OpenITG",
+			"contents": "tipsy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tipsyoffset<col>",
+			"annotation": "NotITG",
+			"contents": "tipsyoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tipsyoffset",
+			"annotation": "NotITG",
+			"contents": "tipsyoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tipsyspacing<col>",
+			"annotation": "NotITG",
+			"contents": "tipsyspacing${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tipsyspacing",
+			"annotation": "NotITG",
+			"contents": "tipsyspacing",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tipsyspeed<col>",
+			"annotation": "NotITG",
+			"contents": "tipsyspeed${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tipsyspeed",
+			"annotation": "NotITG",
+			"contents": "tipsyspeed",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tornado",
+			"annotation": "OpenITG",
+			"contents": "tornado",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tornadooffset",
+			"annotation": "NotITG",
+			"contents": "tornadooffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tornadoperiod",
+			"annotation": "NotITG",
+			"contents": "tornadoperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tornadoz",
+			"annotation": "NotITG",
+			"contents": "tornadoz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tornadozoffset",
+			"annotation": "NotITG",
+			"contents": "tornadozoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "tornadozperiod",
+			"annotation": "NotITG",
+			"contents": "tornadozperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "turn",
+			"annotation": "OpenITG",
+			"contents": "turn",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "twirl<col>",
+			"annotation": "NotITG",
+			"contents": "twirl${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "twirl",
+			"annotation": "OpenITG",
+			"contents": "twirl",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "twister",
+			"annotation": "OpenITG",
+			"contents": "twister",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "ultraman",
+			"annotation": "NotITG",
+			"contents": "ultraman",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "vanish",
+			"annotation": "NotITG",
+			"contents": "vanish",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "vanishoffset",
+			"annotation": "NotITG",
+			"contents": "vanishoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "vanishsize",
+			"annotation": "NotITG",
+			"contents": "vanishsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "wave<col>",
+			"annotation": "NotITG",
+			"contents": "wave${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "wave",
+			"annotation": "OpenITG",
+			"contents": "wave",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "waveoffset<col>",
+			"annotation": "NotITG",
+			"contents": "waveoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "waveoffset",
+			"annotation": "NotITG",
+			"contents": "waveoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "waveperiod<col>",
+			"annotation": "NotITG",
+			"contents": "waveperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "waveperiod",
+			"annotation": "NotITG",
+			"contents": "waveperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "wavesize",
+			"annotation": "NotITG",
+			"contents": "wavesize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "wide",
+			"annotation": "OpenITG",
+			"contents": "wide",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": "NOTICE: Cannot be applied directly in mod files."
+		},
+		{
+			"trigger": "wireframe<col>",
+			"annotation": "NotITG",
+			"contents": "wireframe${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "wireframe",
+			"annotation": "NotITG",
+			"contents": "wireframe",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "wireframegirth<col>",
+			"annotation": "NotITG",
+			"contents": "wireframegirth${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "wireframegirth",
+			"annotation": "NotITG",
+			"contents": "wireframegirth",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "wireframewidth<col>",
+			"annotation": "NotITG",
+			"contents": "wireframewidth${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "wireframewidth",
+			"annotation": "NotITG",
+			"contents": "wireframewidth",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "x",
+			"annotation": "NotITG",
+			"contents": "x",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "y",
+			"annotation": "NotITG",
+			"contents": "y",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "z",
+			"annotation": "NotITG",
+			"contents": "z",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zbuffer",
+			"annotation": "NotITG",
+			"contents": "zbuffer",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzag<col>",
+			"annotation": "NotITG",
+			"contents": "zigzag${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzag",
+			"annotation": "NotITG",
+			"contents": "zigzag",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagoffset<col>",
+			"annotation": "NotITG",
+			"contents": "zigzagoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagoffset",
+			"annotation": "NotITG",
+			"contents": "zigzagoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagperiod<col>",
+			"annotation": "NotITG",
+			"contents": "zigzagperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagperiod",
+			"annotation": "NotITG",
+			"contents": "zigzagperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagsize<col>",
+			"annotation": "NotITG",
+			"contents": "zigzagsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagsize",
+			"annotation": "NotITG",
+			"contents": "zigzagsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagz<col>",
+			"annotation": "NotITG",
+			"contents": "zigzagz${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagz",
+			"annotation": "NotITG",
+			"contents": "zigzagz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagzoffset<col>",
+			"annotation": "NotITG",
+			"contents": "zigzagzoffset${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagzoffset",
+			"annotation": "NotITG",
+			"contents": "zigzagzoffset",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagzperiod<col>",
+			"annotation": "NotITG",
+			"contents": "zigzagzperiod${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagzperiod",
+			"annotation": "NotITG",
+			"contents": "zigzagzperiod",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagzsize<col>",
+			"annotation": "NotITG",
+			"contents": "zigzagzsize${1:col}",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zigzagzsize",
+			"annotation": "NotITG",
+			"contents": "zigzagzsize",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zoom",
+			"annotation": "NotITG",
+			"contents": "zoom",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zoomx",
+			"annotation": "NotITG",
+			"contents": "zoomx",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zoomy",
+			"annotation": "NotITG",
+			"contents": "zoomy",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "zoomz",
+			"annotation": "NotITG",
+			"contents": "zoomz",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+		{
+			"trigger": "ztest",
+			"annotation": "NotITG",
+			"contents": "ztest",
+			"kind": ["snippet", "m", "Modifier"],
+			"details": " "
+		},
+	]
+}

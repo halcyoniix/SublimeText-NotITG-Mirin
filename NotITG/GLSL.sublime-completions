@@ -1,0 +1,117 @@
+{
+	"scope": "source.glsl.nitg - meta.function.glsl",
+	"completions": [
+		{
+			"trigger": "varying vec3 position",
+			"annotation": "varying vec3",
+			"contents": "varying vec3 position;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "varying vec3 normal",
+			"annotation": "varying vec3",
+			"contents": "varying vec3 normal;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "varying vec4 color",
+			"annotation": "varying vec4",
+			"contents": "varying vec4 color;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "varying vec2 textureCoord",
+			"annotation": "varying vec2",
+			"contents": "varying vec2 textureCoord;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "varying vec2 imageCoord",
+			"annotation": "varying vec2",
+			"contents": "varying vec2 imageCoord;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform float time",
+			"annotation": "uniform float",
+			"contents": "uniform float time;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform float beat",
+			"annotation": "uniform float",
+			"contents": "uniform float beat;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform vec2 resolution",
+			"annotation": "uniform vec2",
+			"contents": "uniform vec2 resolution;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform vec2 textureSize",
+			"annotation": "uniform vec2",
+			"contents": "uniform vec2 textureSize;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform vec2 imageSize",
+			"annotation": "uniform vec2",
+			"contents": "uniform vec2 imageSize;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform mat4 modelMatrix",
+			"annotation": "uniform mat4",
+			"contents": "uniform mat4 modelMatrix;",
+			"kind": ["function", "v", "Vertex"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform mat4 viewMatrix",
+			"annotation": "uniform mat4",
+			"contents": "uniform mat4 viewMatrix;",
+			"kind": ["function", "v", "Vertex"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform mat4 perspectiveMatrix",
+			"annotation": "uniform mat4",
+			"contents": "uniform mat4 perspectiveMatrix;",
+			"kind": ["function", "v", "Vertex"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform mat4 textureMatrix",
+			"annotation": "uniform mat4",
+			"contents": "uniform mat4 textureMatrix;",
+			"kind": ["function", "v", "Vertex"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform sampler2D sampler0",
+			"annotation": "uniform sampler2D",
+			"contents": "uniform sampler2D sampler0;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+		{
+			"trigger": "uniform sampler2D sampler1",
+			"annotation": "uniform sampler2D",
+			"contents": "uniform sampler2D sampler1;",
+			"kind": ["variable", "v", "Fragment"],
+			"details": " "
+		},
+	]
+}

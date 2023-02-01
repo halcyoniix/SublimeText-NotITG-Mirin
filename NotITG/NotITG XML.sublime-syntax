@@ -1,0 +1,25 @@
+%YAML 1.2
+---
+
+name: NotITG XML
+scope: source.xml.nitg
+
+contexts:
+  main:
+    - match: ""
+      push: Packages/XML/XML.sublime-syntax
+      with_prototype:
+        - match: "\"(%|@)"
+          embed: scope:source.lua.nitg
+          pop: true
+          escape: \"
+        - match: <!--
+          scope: punctuation.definition.comment.begin.xml
+          push: comment-content
+
+  comment-content:
+    - meta_include_prototype: false
+    - meta_scope: comment.block.xml
+    - match: -->
+      scope: punctuation.definition.comment.end.xml
+      pop: 1

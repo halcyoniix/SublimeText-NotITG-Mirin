@@ -1,0 +1,313 @@
+{
+	"scope": "source.lua.nitg - string - keyword - variable.function - meta.property.method-wait.lua",
+	"completions": [
+				{
+			"trigger": "ease_inBack",
+			"annotation": "time",
+			"contents": "inBack(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": "<code>inBack:params(amp = 1.70158)</code> <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inBounce",
+			"annotation": "time",
+			"contents": "inBounce(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inCirc",
+			"annotation": "time",
+			"contents": "inCirc(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inCubic",
+			"annotation": "time",
+			"contents": "inCubic(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inElastic",
+			"annotation": "time",
+			"contents": "inElastic(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": "<code>inElastic:params(amp = 1, per = 0.3)</code> <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inExpo",
+			"annotation": "time",
+			"contents": "inExpo(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inOutBack",
+			"annotation": "time",
+			"contents": "inOutBack(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": "<code>inOutBack:params(amp = 1.70158)</code> <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inOutBounce",
+			"annotation": "time",
+			"contents": "inOutBounce(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inOutCirc",
+			"annotation": "time",
+			"contents": "inOutCirc(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inOutCubic",
+			"annotation": "time",
+			"contents": "inOutCubic(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inOutElastic",
+			"annotation": "time",
+			"contents": "inOutElastic(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": "<code>inOutElastic:params(amp = 1, per = 0.3)</code> <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inOutExpo",
+			"annotation": "time",
+			"contents": "inOutExpo(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inOutQuad",
+			"annotation": "time",
+			"contents": "inOutQuad(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inOutQuart",
+			"annotation": "time",
+			"contents": "inOutQuart(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inOutQuint",
+			"annotation": "time",
+			"contents": "inOutQuint(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inOutSine",
+			"annotation": "time",
+			"contents": "inOutSine(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inQuad",
+			"annotation": "time",
+			"contents": "inQuad(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inQuart",
+			"annotation": "time",
+			"contents": "inQuart(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inQuint",
+			"annotation": "time",
+			"contents": "inQuint(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inSine",
+			"annotation": "time",
+			"contents": "inSine(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_linear",
+			"annotation": "time",
+			"contents": "linear(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_outBack",
+			"annotation": "time",
+			"contents": "outBack(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": "<code>outBack:params(amp = 1.70158)</code> <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_outBounce",
+			"annotation": "time",
+			"contents": "outBounce(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_outCirc",
+			"annotation": "time",
+			"contents": "outCirc(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_outCubic",
+			"annotation": "time",
+			"contents": "outCubic(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_outElastic",
+			"annotation": "time",
+			"contents": "outElastic(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": "<code>outElastic:params(amp = 1, per = 0.3)</code> <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_outExpo",
+			"annotation": "time",
+			"contents": "outExpo(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_outQuad",
+			"annotation": "time",
+			"contents": "outQuad(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_outQuart",
+			"annotation": "time",
+			"contents": "outQuart(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_outQuint",
+			"annotation": "time",
+			"contents": "outQuint(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_outSine",
+			"annotation": "time",
+			"contents": "outSine(${1:time})",
+			"kind": ["navigation", "e", "Ease Function"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_bell",
+			"annotation": "time",
+			"contents": "bell(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_bounce",
+			"annotation": "time",
+			"contents": "bounce(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_tap",
+			"annotation": "time",
+			"contents": "tap(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_impulse",
+			"annotation": "time",
+			"contents": "impulse(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": "<code>impulse:params(amp = 0.9)</code> <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_instant",
+			"annotation": "time",
+			"contents": "instant(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_inverse",
+			"annotation": "time",
+			"contents": "inverse(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_pop",
+			"annotation": "time",
+			"contents": "pop(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_pulse",
+			"annotation": "time",
+			"contents": "pulse(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_spike",
+			"annotation": "time",
+			"contents": "spike(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_tri",
+			"annotation": "time",
+			"contents": "tri(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": " <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_popElastic",
+			"annotation": "time",
+			"contents": "popElastic(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": "<code>popElastic:params(amp = 1.4, per = 6)</code> <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_tapElastic",
+			"annotation": "time",
+			"contents": "tapElastic(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": "<code>tapElastic:params(amp = 1.4, per = 6)</code> <a href=\"https://easings.net/\">More Info</a>"
+		},
+		{
+			"trigger": "ease_pulseElastic",
+			"annotation": "time",
+			"contents": "pulseElastic(${1:time})",
+			"kind": ["navigation", "e", "Ease Function (Mirin)"],
+			"details": "<code>pulseElastic:params(amp = 1.4, per = 6)</code> <a href=\"https://easings.net/\">More Info</a>"
+		},
+	]
+}

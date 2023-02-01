@@ -1,0 +1,75 @@
+{
+	"scope": "source.xml.nitg - source.lua.nitg - meta.string",
+	"completions": [
+		{
+			"trigger": "Actor",
+			"annotation": "",
+			"contents": "<Layer Type=\"Actor\" Name=\"${1:name}\"/>",
+			"kind": ["snippet", "m", "Mirin"],
+			"details": ""
+		},
+		{
+			"trigger": "ActorFrame",
+			"annotation": "",
+			"contents": "<Layer Type=\"ActorFrame\" Name=\"${1:name}\"><children>\n\n</children></Layer>",
+			"kind": ["snippet", "m", "Mirin"],
+			"details": ""
+		},
+		{
+			"trigger": "ActorFrameTexture",
+			"annotation": "",
+			"contents": "<Layer Type=\"ActorFrameTexture\" Name=\"${1:name}\" InitCommand=\"%xero.aft\" />",
+			"kind": ["snippet", "m", "Mirin"],
+			"details": ""
+		},
+		{
+			"trigger": "ActorFrameTexture",
+			"annotation": "+ Sprite",
+			"contents": "<Layer Type=\"ActorFrameTexture\" Name=\"${1:name}_aft\" InitCommand=\"%xero.aft\" />\n<Layer Type=\"Sprite\" Name=\"${1:name}_spr\" InitCommand=\"%xero.sprite\" />",
+			"kind": ["snippet", "m", "Mirin"],
+			"details": ""
+		},
+		{
+			"trigger": "BitmapText",
+			"annotation": "",
+			"contents": "<Layer Type=\"BitmapText\" Name=\"${1:name}\" Font=\"${2:font}\"/>",
+			"kind": ["snippet", "m", "Mirin"],
+			"details": ""
+		},
+		{
+			"trigger": "Quad",
+			"annotation": "",
+			"contents": "<Layer Type=\"Quad\" Name=\"${1:name}\"/>",
+			"kind": ["snippet", "m", "Mirin"],
+			"details": ""
+		},
+		{
+			"trigger": "Sprite",
+			"annotation": "",
+			"contents": "<Layer Type=\"Sprite\" Name=\"${1:name}\"/>",
+			"kind": ["snippet", "m", "Mirin"],
+			"details": ""
+		},
+		{
+			"trigger": "Polygon",
+			"annotation": "",
+			"contents": "<Layer Type=\"Polygon\" Name=\"${1:name}\"/>",
+			"kind": ["snippet", "m", "Mirin"],
+			"details": ""
+		},
+		{
+			"trigger": "File",
+			"annotation": "",
+			"contents": "<Layer File=\"${1:file}\" Name=\"${2:name}\"/>",
+			"kind": ["snippet", "m", "Mirin"],
+			"details": ""
+		},
+		{
+			"trigger": "ActorProxy",
+			"annotation": "",
+			"contents": "<Layer Type=\"ActorProxy\" Name=\"${1:name}\"/>",
+			"kind": ["snippet", "m", "Mirin"],
+			"details": ""
+		},
+	]
+}
