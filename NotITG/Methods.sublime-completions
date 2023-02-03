@@ -1,5 +1,5 @@
 {
-	"scope": "source.lua.nitg meta.property.method-wait.lua - variable.parameter.function.lua - string",
+	"scope": "source.lua.nitg & (punctuation.accessor.lua || meta.property.method-wait.lua) - variable.parameter.function.lua - string",
 	"completions": [
 		{
 			"trigger": "x",

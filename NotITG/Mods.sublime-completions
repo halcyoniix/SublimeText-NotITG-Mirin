@@ -2,9 +2,9 @@
 	"scope": "source.lua.nitg & string",
 	"completions": [
 		{
-			"trigger": "<float>x",
+			"trigger": "xmod",
 			"annotation": "OpenITG",
-			"contents": "<float>x",
+			"contents": "${1:<number>}x",
 			"kind": ["snippet", "m", "Modifier"],
 			"details": " "
 		},
@@ -828,9 +828,9 @@
 			"details": " "
 		},
 		{
-			"trigger": "c<float>",
+			"trigger": "cmod",
 			"annotation": "OpenITG",
-			"contents": "c<float>",
+			"contents": "c${1:<number>}",
 			"kind": ["snippet", "m", "Modifier"],
 			"details": " "
 		},

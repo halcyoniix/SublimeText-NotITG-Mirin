@@ -11,7 +11,7 @@
 		{
 			"trigger": "ActorFrame",
 			"annotation": "",
-			"contents": "<Layer Type=\"ActorFrame\" Name=\"${1:name}\"><children>\n\n</children></Layer>",
+			"contents": "<Layer Type=\"ActorFrame\" Name=\"${1:name}\"><children></children></Layer>",
 			"kind": ["snippet", "m", "Mirin"],
 			"details": ""
 		},
