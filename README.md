@@ -1,4 +1,4 @@
-# Sublime Text completions and syntax highlighting for NotITG and Mirin Template.
+# Sublime Text completions and syntax highlighting for [NotITG](https://noti.tg) and [Mirin Template](https://github.com/XeroOl/notitg-mirin).
 ## THIS HAS MIRIN-SPECIFIC COMPLETIONS WHICH MAY GET IN THE WAY WHEN CODING IN NORMAL NOTITG ENVIRONMENTS.
 Specifically the files `Mirin`, `Easings`, `Mods`, and `ActorTypes` all have completions relating to the Mirin Template. Feel free to edit these as you wish. (See PS at the bottom)
 
