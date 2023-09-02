@@ -1329,7 +1329,7 @@
 			"annotation": "(name)",
 			"contents": "queuemessage('${1:name}')",
 			"kind": ["function", "a", "Actor"],
-			"details": "Queues a message command. NOTE: Consider using <code>MESSAGEMAN:Broadcast</code> instead."
+			"details": "Queues a message command."
 		},
 		{
 			"trigger": "animate",
@@ -2900,6 +2900,14 @@
 			"contents": "clearDefine('${1:key}')",
 			"kind": ["function", "s", "RageShaderProgram"],
 			"details": "Removes a <code>#define</code> previously added with <code>define</code>. Use <code>compileImmediate</code> to recompile."
+		},
+
+		{
+			"trigger": "Broadcast",
+			"annotation": "(msg)",
+			"contents": "Broadcast('${1:msg}')",
+			"kind": ["variable", "m", "MessageManager"],
+			"details": "Globally broadcasts a message."
 		},
 
 		// ScreenManager

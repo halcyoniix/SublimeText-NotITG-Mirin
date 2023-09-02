@@ -422,7 +422,7 @@ contexts:
           push: expression
 
   property:
-    - match: '\s'
+    - match: '[\s\W]'
       scope: meta.property.method-wait.lua
     - match: '{{nitg_methods}}'
       scope: meta.property.lua entity.name.function.lua nitg.function
